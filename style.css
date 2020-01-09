@@ -1,0 +1,18 @@
+body{
+    padding:0 0 0 0;
+    margin: 0 0 0 0;
+    } 
+
+
+iframe {
+    width: 100%;
+    border: 0;
+    transform-origin: 0 0; 
+    background-color:#0C343D;
+    overflow:hidden;
+    }
+
+
+    iFrame::-webkit-scrollbar {
+        display: none;
+    }

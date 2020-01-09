@@ -1,14 +1,15 @@
 body{
     padding:0 0 0 0;
     margin: 0 0 0 0;
+    background-color:#0C343D !important;
     } 
 
 
 iframe {
-    width: 100%;
+
     border: 0;
     transform-origin: 0 0; 
-    background-color:#0C343D !important;
+    
     overflow:hidden;
     }
 

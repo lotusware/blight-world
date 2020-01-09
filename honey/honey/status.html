@@ -1,0 +1,63 @@
+<head>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+
+<iframe scrolling="no" style="position:fixed; height:134px;" frameborder="0" marginheight="0" marginwidth="0"  widget=false
+src="https://docs.google.com/spreadsheets/d/1JPCdDNxz002gK2zQC5ailXhYwDpTXv1z7Bg8kdwckJE/htmlembed/
+sheet?gid=1648678470
+&range=A1:AL6" 
+></iframe>
+
+<div style="top:34px;left:0px;position:fixed;">
+    <a href="status.html"><img src="../img/status-active.png"><br></a>
+    <a href="checks.html"><img src="../img/checks.png"><br></a>
+    <a href="equip.html"><img src="../img/equip.png"><br></a>
+    <a href="items.html"><img src="../img/items.png"><br></a>
+    <a href="log.html"><img src="../img/log.png"></a>
+</div>
+<div style="padding-top:120px;"></div>
+
+
+<iframe widget=false frameborder="0" marginheight="0" marginwidth="0"  widget=false scrolling="no"
+src="https://docs.google.com/spreadsheets/d/1JPCdDNxz002gK2zQC5ailXhYwDpTXv1z7Bg8kdwckJE/htmlembed/
+sheet?gid=1648678470
+&range=A7:AL35" 
+style="height:680px;" ></iframe>
+
+
+
+<button onclick="openFullscreen();">Open Fullscreen</button>
+<button onclick="closeFullscreen();">Close Fullscreen</button>
+
+<script>
+        var elem = document.documentElement;
+        function openFullscreen() {
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+          } else if (elem.mozRequestFullScreen) { /* Firefox */
+            elem.mozRequestFullScreen();
+          } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+            elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) { /* IE/Edge */
+            elem.msRequestFullscreen();
+          }
+        }
+        
+        function closeFullscreen() {
+          if (document.exitFullscreen) {
+            document.exitFullscreen();
+          } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+          } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+          } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+          }
+        }
+        </script>
+
+
+
+</body> 

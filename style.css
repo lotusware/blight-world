@@ -10,10 +10,19 @@ iframe {
     border: 0;
     transform-origin: 0 0; 
     width:100%;
-    overflow:hidden;
     }
 
 
     iFrame::-webkit-scrollbar {
         display: none;
     }
+    
+#hud{top:34px;left:0px;position:fixed;}
+
+#header{position:fixed; height:134px;}
+
+#status{height:785px;}
+#checks{height:591px;}
+#equip{height:1251px;}
+#items{height:629px;}
+#log{height:1109px;}

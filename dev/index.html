@@ -18,6 +18,9 @@
 
 <div class="hud container text-center">
     <div class="navigation" >
+      <button onclick="openFullscreen();">Open Fullscreen</button>
+<button onclick="closeFullscreen();">Close Fullscreen</button>
+
       <a href="#status"><img src="../img/status.png"><br></a>
       <a href="#checks"><img src="../img/checks-active.png"><br></a>
       <a href="#equip"><img src="../img/equip.png"><br></a>
@@ -60,10 +63,10 @@
       </div>
     </div>
     
-    <div id="checks"  class="container">checks here</div>
-    <div id="equip"  class="container">equip here</div>
-    <div id="items" class="container">items here</div>
-    <div id="log" class="container">log here</div>
+    <div id="checks"  class="container"></div>
+    <div id="equip"  class="container"> </div>
+    <div id="items" class="container"> </div>
+    <div id="log" class="container"> </div>
 
  
 
@@ -384,6 +387,34 @@ document.getElementById('LOG50').innerHTML = LOG50;
 
 
     </script>
+
+
+<script>
+  var elem = document.documentElement;
+  function openFullscreen() {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.mozRequestFullScreen) { /* Firefox */
+      elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE/Edge */
+      elem.msRequestFullscreen();
+    }
+  }
+  
+  function closeFullscreen() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  }
+  </script>
   </body>
 
 </html>

@@ -6,71 +6,197 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title >MAG - Management Assist Gear</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700&display=swap" rel="stylesheet">
+
 
   </head>
 
   <body>
- 
 
-
-<div class="hud container text-center">
-    <div class="navigation" >
-      <button onclick="openFullscreen();">Open Fullscreen</button>
-<button onclick="closeFullscreen();">Close Fullscreen</button>
-
-      <a href="#status"><img src="../img/status.png"><br></a>
-      <a href="#checks"><img src="../img/checks-active.png"><br></a>
-      <a href="#equip"><img src="../img/equip.png"><br></a>
-      <a href="#items"><img src="../img/items.png"><br></a>
-      <a href="#log"><img src="../img/log.png"></a>
+<div class="hud">
+  <div class="navigation"style="z-index:1500 !important;" >
+    <ul>
+      <li><a href="#status"><img src="../img/status.png"><br></a></li>
+      <li><a href="#checks"><img src="../img/checks.png"><br></a></li>
+      <li><a href="#equip"><img src="../img/equip.png"><br></a></li>
+      <li><a href="#items"><img src="../img/items.png"><br></a></li>
+      <li><a href="#log"><img src="../img/log.png"></a></li>
+    </ul>
   </div>
 
-      <h2 id="NAME">Loading...</h2>
-      <p>Actions Remaining     <span id="CURAP"></span>/<span id="MAXAP"></span></p>
-      <p>HP     <span id="CURHP"></span>/<span id="MAXHP"></span></p>
-      <p>FP     <span id="CURFP"></span>/<span id="MAXFP"></span></p> 
+  <div id="status" style="margin-right:0px; z-index: 900 !important; background-color:rgba(12,52,61,1);box-shadow: 5px 5px 10px #000000;">
+    <div class="row" style=" z-index:200;">
+      <div class="col-9" style=" z-index:200;
+      background: rgb(0,0,0);
+      background: -moz-linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(12,52,61,1) 90%);
+      background: -webkit-linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(12,52,61,1) 90%);
+      background: linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(12,52,61,1) 90%);">
+        <h5 id="NAME" style="padding-top:10px; letter-spacing:4px;">▬/|\▬</h5>
+      </div>
 
+    </div>
+    <div class="row" style="margin-top:-25px;">
+      <div class="col-8"><h6 style="margin-top:30px; color:#F9C158;">ACTIONS REMAINING</h6></div>
+      <div class="col">
+        <h1 class="text-right color-yellow" style="line-height: 10pt; font-size:30px;" ><span id="CURAP" style="font-size: 40px;"></span><span class="horizontal">/<span id="MAXAP"></span></span></h1>
+      </div>
+    </div>
+    <div class="row" style="margin-top:-30px; border-bottom: 2px solid #27515A; padding-bottom:0px;">
+      <div class="col-3 horizontal"></div>
+      <div class="col-6 vertical"></div>
+      <div class="col" ><svg style="width:100%" height="10">
+        <rect height="10" style="fill:#F9C158;stroke-width:3;stroke:rgb(0,0,0); width:100%;" />
+      </svg></div>
+    </div>
 
-
+    <div class="row" style="background-color: #061B20; border-bottom: 2px solid #76A5AF; ">
+      <div class="col-1" style="padding-right:0px;"><h5 style="color:#8DD668">HP</h5></div>
+      <div class="col-6" ><svg style="width:100%; padding-left:0px; padding-right:0px; margin-right:0px; margin-left:0px;" height="10">
+        <rect height="10" style="fill:#8DD668;stroke-width:3;stroke:rgb(0,0,0); width:100%;" />
+      </svg></div>
+        <div class="col-1 text-left" style="margin-right:20px;"><h5 style="color:#8DD668"><span id="CURHP"></span><span class="horizontal">/<span id="MAXHP" > </span> </span> </h5></div>
+      <div class="col-1"><h5 style="color: #629BF4">FP</h5></div>
+      <div class="col horizontal" style="padding-left:0px;padding-right:0px;" ><svg style="width:100%" height="10">
+        <rect height="10" style="fill:#629BF4;stroke-width:3;stroke:rgb(0,0,0); width:100%;" />
+      </svg></div>
+      <div class="col-1"><h5 style="color: #629BF4"><span id="CURFP"></span><span class="horizontal">/<span id="MAXFP"> </span> </span> </h5></div>
     </div>
 
 
-    <div id="status" class="container">
-      <div class="row justify-content-md-center">
-        <div class="col col-lg-2">
-          1 of 3
-        </div>
-        <div class="col-md-auto">
-          Variable width content
-        </div>
-        <div class="col col-lg-2">
-          3 of 3
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          1 of 3
-        </div>
-        <div class="col-md-auto">
-          Variable width content
-        </div>
-        <div class="col col-lg-2">
-          3 of 3
-        </div>
-      </div>
-    </div>
-    
-    <div id="checks"  class="container"></div>
-    <div id="equip"  class="container"> </div>
-    <div id="items" class="container"> </div>
-    <div id="log" class="container"> </div>
-
- 
 
 
+
+  </div>
+
+
+</div>
+
+<div class="top-spacer"></div>
+
+
+<div class="container section" id="status">
+  <div class="row" style="background-color:#76A5AF;padding-left:0px;">
+    <div class="col-4"><h6 style="color:#061B20">ATTRIBUTES</h6></div>
+    <div class="col-1"></div>
+    <div class="col horizontal">desc</div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#27515A"><h6 class="align-middle" style="font-size: 14px;">BONUS</h6></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#27515A"><h6 style="font-size: 14px;">EQUIP</h6></div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="background-color:#010A17; border-bottom-style:dotted;border-bottom-width:1px; padding-bottom:0;">
+    <div class="col-1 icon"><img src="../assets/fort.gif"></div>
+    <div class="col-3 text-left horizontal" style="padding: 0 0 0 ;"><h5 style="color:#87E15F">Fortitude</h5></div>
+    <div class="col-3 text-left vertical"><h4 style="color:#87E15F">Fortitude</h4></div>
+    <div class="col-5 text-left horizontal" style="padding: 0 0 0 0;"><p>[Endurance] [HP] [FP] [Resist] [Accuracy]</p></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20 " ><h3  id="FORTB">0</h3></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20"><h3 id="FORTE">0</h1></div>
+    <div class="col text-right"><h1 id="FORT"></h1></div>
+  </div>
+  <div class="row" style="background-color:#010A17; border-bottom-style:dotted;border-bottom-width:1px; padding-bottom:0;">
+    <div class="col-1 icon"><img src="../assets/fort.gif"></div>
+    <div class="col-3 text-left horizontal" style="padding: 0 0 0 ;"><h5>Finesse</h5></div>
+    <div class="col-3 text-left vertical"><h4>Finesse</h4></div>
+    <div class="col-5 text-left horizontal" style="padding: 0 0 0 0;"><p>[Endurance] [HP] [FP] [Resist] [Accuracy]</p></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20 " ><h3  id="FORTB">0</h3></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20"><h3 id="FORTE">0</h1></div>
+    <div class="col text-right"><h1 id="FORT"></h1></div>
+  </div>
+  <div class="row" style="background-color:#010A17; border-bottom-style:dotted;border-bottom-width:1px; padding-bottom:0;">
+    <div class="col-1 icon"><img src="../assets/fort.gif"></div>
+    <div class="col-3 text-left horizontal" style="padding: 0 0 0 ;"><h5>Strength</h5></div>
+    <div class="col-3 text-left vertical"><h4>Strength</h4></div>
+    <div class="col-5 text-left horizontal" style="padding: 0 0 0 0;"><p>[Endurance] [HP] [FP] [Resist] [Accuracy]</p></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20 " ><h3  id="FORTB">0</h3></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20"><h3 id="FORTE">0</h1></div>
+    <div class="col text-right"><h1 id="FORT"></h1></div>
+  </div>
+  <div class="row" style="background-color:#010A17; border-bottom-style:dotted;border-bottom-width:1px; padding-bottom:0;">
+    <div class="col-1 icon"><img src="../assets/fort.gif"></div>
+    <div class="col-3 text-left horizontal" style="padding: 0 0 0 ;"><h5>Skill</h5></div>
+    <div class="col-3 text-left vertical"><h4>Skill</h4></div>
+    <div class="col-5 text-left horizontal" style="padding: 0 0 0 0;"><p>[Endurance] [HP] [FP] [Resist] [Accuracy]</p></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20 " ><h3  id="FORTB">0</h3></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20"><h3 id="FORTE">0</h1></div>
+    <div class="col text-right"><h1 id="FORT"></h1></div>
+  </div>
+  <div class="row" style="background-color:#010A17; border-bottom-style:dotted;border-bottom-width:1px; padding-bottom:0;">
+    <div class="col-1 icon"><img src="../assets/fort.gif"></div>
+    <div class="col-3 text-left horizontal" style="padding: 0 0 0 ;"><h5>Intelligence</h5></div>
+    <div class="col-3 text-left vertical"><h4>Intelligence</h4></div>
+    <div class="col-5 text-left horizontal" style="padding: 0 0 0 0;"><p>[Endurance] [HP] [FP] [Resist] [Accuracy]</p></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20 " ><h3  id="FORTB">0</h3></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20"><h3 id="FORTE">0</h1></div>
+    <div class="col text-right"><h1 id="FORT"></h1></div>
+  </div>
+  <div class="row" style="background-color:#010A17;padding-bottom:0;">
+    <div class="col-1 icon"><img src="../assets/fort.gif"></div>
+    <div class="col-3 text-left horizontal" style="padding: 0 0 0 ;"><h5>Insight</h5></div>
+    <div class="col-3 text-left vertical"><h4>Insight</h4></div>
+    <div class="col-5 text-left horizontal" style="padding: 0 0 0 0;"><p>[Endurance] [HP] [FP] [Resist] [Accuracy]</p></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20 " ><h3  id="FORTB">0</h3></div>
+    <div class="col-1 horizontal text-center align-middle" style="background-color:#061B20"><h3 id="FORTE">0</h1></div>
+    <div class="col text-right"><h1 id="FORT"></h1></div>
+  </div>
+
+</div>  
+    <div id="checks"  class="container" style="margin-right:0px;">text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br></div>
+
+    <div id="equip"  class="container" style="margin-right:0px;">text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br> </div>
+      
+    <div id="items" class="container" style="margin-right:0px;"> text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br></div>
+
+    <div id="log" class="container" style="margin-right:0px;">text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br>
+      text<br> </div>
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
@@ -389,32 +515,6 @@ document.getElementById('LOG50').innerHTML = LOG50;
     </script>
 
 
-<script>
-  var elem = document.documentElement;
-  function openFullscreen() {
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    } else if (elem.mozRequestFullScreen) { /* Firefox */
-      elem.mozRequestFullScreen();
-    } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-      elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { /* IE/Edge */
-      elem.msRequestFullscreen();
-    }
-  }
-  
-  function closeFullscreen() {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.mozCancelFullScreen) {
-      document.mozCancelFullScreen();
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen();
-    } else if (document.msExitFullscreen) {
-      document.msExitFullscreen();
-    }
-  }
-  </script>
   </body>
 
 </html>

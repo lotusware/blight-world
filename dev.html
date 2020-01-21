@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title >MAG - Management Assist Gear</title>
+    <meta name="referrer" content="strict-origin" />
+    <script src="https://kit.fontawesome.com/689bef66cf.js" crossorigin="anonymous" rel="stylesheet"></script>
     <link href="css/style2.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto+Mono&display=swap" rel="stylesheet">
+
   </head>
 
 <script type="application/javascript">
@@ -16,6 +19,8 @@
   <body>
 
 <div class="hud">
+
+
 
   <ul class="nav">
     <li><a href="#attributes"><img src="assets/status.png"></a> </li>
@@ -30,13 +35,22 @@
 <table class="status text-center">
   <tr>
     <td width="300" colspan="3" class="name text-lightest"><h3 id="NAME">&#x27F3;</h3></td>
-    <td rowspan="2" class="bg-mid text-yellow"><h1><span id="CURAP" style="font-size: 40pt;">&#x2022;</span>/<span id="MAXAP">&#x2022;</span></h1></td>
+    <td rowspan="2" class="bg-mid text-yellow"><h1><span id="CURAP" style="font-size: 40pt;">&#x2022;</span><span class="horizontal">/</span><span id="MAXAP"  class="horizontal">&#x2022;</span></h1></td>
   </tr>
-  <tr>
-    <td colspan="3" class="text-yellow bg-mid"><p>Actions Remaining</p></td>
+  <tr >
+    <td class="text-yellow bg-mid" height="20"><p><b>Actions Remaining</b></p></td>
+    <td colspan="2" class="bg-mid">
+      <svg width="200" height="10" style="background:#FFD666;" id="APMETER">
+        <rect width="0" height="10" style="fill:#130717;stroke-width:2;stroke:rgb(0,0,0)" />
+      </svg>
+    </td>
   </tr>
   <tr class="name">
-    <td class="text-green"><h3 >HP</h3></td>  
+    <td class="text-green"><h3 >HP         <svg class="horizontal" width="150" height="5" style="background:#8DD668;" id="HPMETER">
+      <rect width="0" height="5" style="fill:#130717;stroke-width:2;stroke:rgb(0,0,0)" />
+    </svg> </h3> 
+      <rect  height="10" style="fill:#130717;stroke-width:2;stroke:rgb(0,0,0)" />
+    </svg></td>  
     <td  class="text-green">  <h3><span id="CURHP">&#x2022;</span>/<span id="MAXHP">&#x2022;</span></h5></td>
     <td  class="text-blue"><h3>FP</h3></td>  
     <td  class="text-blue">  <h3><span id="CURFP">&#x2022;</span>/<span id="MAXFP">&#x2022;</span></h5></td>

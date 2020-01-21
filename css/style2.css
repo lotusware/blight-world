@@ -40,7 +40,7 @@ p.desc{font-size:12pt;padding:5px 5px 5px 5px}
     .text-dark{color:#061B20;}
     .text-mid{color:#0C343D;}
     .text-light{color:#76A5AF;}
-    .text-lightest,b{color:#CFDFDD;}
+    .text-lightest,b,.fas{color:#CFDFDD;}
     .text-green{color:#8DD668}
     .text-red{color:#EF5656}
     .text-blue{color:#6BAAFF}

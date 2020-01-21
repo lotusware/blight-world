@@ -224,6 +224,8 @@ var LOG48 = data.feed.entry[217][playerName]['$t'];
 var LOG49 = data.feed.entry[218][playerName]['$t'];
 var LOG50 = data.feed.entry[219][playerName]['$t'];
 var NAME = data.feed.entry[220][playerName]['$t'];
+var APMETER = data.feed.entry[221][playerName]['$t'];
+var HPMETER = data.feed.entry[222][playerName]['$t'];
 
 
 
@@ -451,4 +453,6 @@ document.getElementById('LOG47').innerHTML = LOG47;
 document.getElementById('LOG48').innerHTML = LOG48;
 document.getElementById('LOG49').innerHTML = LOG49;
 document.getElementById('LOG50').innerHTML = LOG50;
+document.getElementById('APMETER').innerHTML = APMETER;
+document.getElementById('HPMETER').innerHTML = HPMETER;
 });}

@@ -5,6 +5,9 @@
         scroll-behavior: smooth;
       }
 
+
+a{text-decoration: none; color:#8DD668}
+
 ul {list-style-type: none;}
 li{margin: -4px -4px -4px -4px}
 body{ background-image: url("../assets/bkg.gif"); background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover;}

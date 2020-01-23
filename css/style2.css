@@ -6,7 +6,7 @@
       }
 
 
-a{text-decoration: none; color:#8DD668}
+a{text-decoration: none; color:#8DD668;z-index:2000}
 
 ul {list-style-type: none;}
 li{margin: -4px -4px -4px -4px}
@@ -15,9 +15,9 @@ table{ width:auto; border-color:#CFDFDD; border-radius: 5px; border-style: outse
 td{padding:2pt 2pt 2pt 2pt;}
 .dotted-line{border-bottom:solid; border-bottom-style:dotted; border-bottom-width:  1px; border-bottom-color: #416C76;}
 
-.hud{position:fixed; top: 0; left:0; }
-    .nav{float:left; background-color:black; box-shadow: 5px 5px 10px black; margin-right:10px;}
-    .status{float:left; box-shadow: 5px 5px 20px black; background-color:rgba(0,0,0,0.9); border-color:#130717; border-style: inset; margin-top:-5px;}
+.hud{position:fixed; }
+    .nav{float:left; background-color:black; box-shadow: 5px 5px 10px black; margin-right:10px; z-index:1000;}
+    .status{float:left; box-shadow: 5px 5px 20px black; background-color:rgba(0,0,0,0.9); border-color:#130717; border-style: inset; margin-top:-5px; z-index:900;}
     .name{background: rgb(0,0,0);
         background: -moz-linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(12,52,61,1) 90%);
         background: -webkit-linear-gradient(120deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(12,52,61,1) 90%);
@@ -66,6 +66,7 @@ p.desc{font-size:12pt;padding:5px 5px 5px 5px}
 .spacer{padding-bottom:200px;}
 li{display:inline-block}
 .nav{width:100%}
+.status{left:0; top:60px;}
 }
 
 /* Horiztonal Mode */
@@ -74,6 +75,8 @@ li{display:inline-block}
 .section{margin-left:10%;}
 .spacer{padding-bottom:120px;}
 .nav{height:max-content; overflow:hidden; background-repeat: repeat-y;}
+.status{left:60px; top:0px;}
+
 
 
 }

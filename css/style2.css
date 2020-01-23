@@ -9,7 +9,7 @@
 a{text-decoration: none; color:#8DD668;z-index:2000}
 
 ul {list-style-type: none;}
-li{margin: -4px -4px -4px -4px}
+li{margin: -4px -4px -4px -4px; width:auto;}
 body{ background-image: url("../assets/bkg.gif"); background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover;}
 table{ width:auto; border-color:#CFDFDD; border-radius: 5px; border-style: outset; border-spacing: 0;border-collapse: collapse;}  
 td{padding:2pt 2pt 2pt 2pt;}
@@ -27,8 +27,8 @@ td{padding:2pt 2pt 2pt 2pt;}
 
 
 
-p{font-size:10pt;}
-p.desc{font-size:12pt;padding:5px 5px 5px 5px}
+p{font-size:10pt;}p.desc{font-size:12pt;padding:5px 5px 5px 5px}
+
 .pad-left{padding-left:8pt;}
 .font-oswald{font-family: 'Oswald', sans-serif;text-transform: uppercase;letter-spacing:2pt;}
 .text-center{text-align: center;}
@@ -75,8 +75,9 @@ li{display:inline-block}
 .section{margin-left:10%;}
 .spacer{padding-bottom:120px;}
 .nav{height:max-content; overflow:hidden; background-repeat: repeat-y;}
-.status{left:60px; top:0px;}
+.status{left:60px; top:0px; width:90%;}
+}
 
-
-
+@media only screen and (max-width: 400px) {
+li{width:55px;}
 }

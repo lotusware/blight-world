@@ -12,17 +12,15 @@
 
   </head>
 
-<script type="application/javascript">
-  var playerName = "gsx$clipclop"; // Define playername to load--one word, no spaces
+<script type="application/javascript"> // Define playername to load--one word, no spaces
+ // var playerName = "gsx$honeykaizoku"; 
+ // var playerName = "gsx$hammishmcangus";
+  var playerName = "gsx$clipclop";
 </script>
   
   <body>
 
-<div class="hud">
-
-
-
-  <ul class="nav">
+  <ul class="nav hud">
     <li><a href="#attributes"><img src="assets/status.png"></a> </li>
     <li><a href="#checks"><img src="assets/checks.png"></a></li>
     <li><a href="#combat"><img src="assets/combat.png"></a></li>
@@ -30,9 +28,7 @@
     <li><a href="#inventory"><img src="assets/items.png"></a></li>
     <li><a href="#datalog"><img src="assets/log.png"></a></li>
   </ul>
-
-
-<table class="status text-center">
+<table class="status text-center hud">
   <tr>
     <td width="300" colspan="3" class="name text-lightest"><h3 id="NAME">&#x27F3;</h3></td>
     <td rowspan="2" class="bg-mid text-yellow"><h1><span id="CURAP" style="font-size: 40pt;">&#x2022;</span><span class="horizontal">/</span><span id="MAXAP"  class="horizontal">&#x2022;</span></h1></td>
@@ -46,7 +42,7 @@
     </td>
   </tr>
   <tr class="name">
-    <td class="text-green"><h3 >HP         <svg class="horizontal" width="150" height="5" style="background:#8DD668;" id="HPMETER">
+    <td class="text-green"><h3>HP<svg class="horizontal" width="150" height="5" style="background:#8DD668;" id="HPMETER">
       <rect width="0" height="5" style="fill:#130717;stroke-width:2;stroke:rgb(0,0,0)" />
     </svg> </h3> 
       <rect  height="10" style="fill:#130717;stroke-width:2;stroke:rgb(0,0,0)" />
@@ -56,7 +52,7 @@
     <td  class="text-blue">  <h3><span id="CURFP">&#x2022;</span>/<span id="MAXFP">&#x2022;</span></h5></td>
   </tr>
 </table>
-</div>
+
 
 <!-- ATTRIBUTES -->
 <div id="attributes" class="spacer"></div>
@@ -221,8 +217,6 @@
   </tr>
 </table>
 
-
-
 <!-- COMBAT -->
 <div id="combat" class="spacer"></div>
 <table class="section text-mid">
@@ -262,35 +256,35 @@
     <td class="horizontal" width="40"><h5 id="WEP0E">&#x2022;</h5></td>
     <td class="horizontal" width="40"><h5 id="WEP0TYPE">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="WEP0">&#x2022;</h3></td>
-    <td><p id="WEP0DESC">description goes here</p></td>
+    <td><p id="WEP0DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 id="WEP0ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="dotted-line text-light bg-dark">
     <td class="horizontal" width="40"><h5 id="WEP1E">&#x2022;</h5></td>
     <td class="horizontal" width="40"><h5 id="WEP1TYPE">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="WEP1">&#x2022;</h5></td>
-    <td><p id="WEP1DESC">description goes here</p></td>
+    <td><p id="WEP1DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 id="WEP1ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="dotted-line text-light bg-darkest">
     <td class="horizontal" width="40"><h5 id="WEP2E">&#x2022;</h5></td>
     <td class="horizontal" width="40"><h5 id="WEP2TYPE">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="WEP2">&#x2022;</h5></td>
-    <td><p id="WEP2DESC">description goes here</p></td>
+    <td><p id="WEP2DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 id="WEP2ROLL">&#x2022;</h4></td>
   </tr>
   <tr class="dotted-line text-light bg-dark">
     <td class="horizontal" width="40"><h5 id="WEP3E">&#x2022;</h5></td>
     <td class="horizontal" width="40"><h5 id="WEP3TYPE">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="WEP3">&#x2022;</h5></td>
-    <td><p id="WEP3DESC">description goes here</p></td>
+    <td><p id="WEP3DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 id="WEP3ROLL">&#x2022;</h4></td>
   </tr>
   <tr class="text-light bg-darkest">
     <td class="horizontal" width="40"><h5 id="WEP4E">&#x2022;</h5></td>
     <td class="horizontal" width="40"><h5 id="WEP4TYPE">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="WEP4">&#x2022;</h5></td>
-    <td><p id="WEP4DESC">description goes here</p></td>
+    <td><p id="WEP4DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 id="WEP4ROLL">&#x2022;</h4></td>
   </tr>
 </table>
@@ -301,17 +295,17 @@
   <tr class="dotted-line text-light bg-darkest">
     <td class="horizontal" width="40"><h5 id="HEAD0E">&#x2022;</h5></td>
     <td class="text-center" style="width:26%;"><h4 id="HEAD0">&#x2022;</h3></td>
-    <td><p id="HEAD0DESC">description goes here</p></td>
+    <td><p id="HEAD0DESC">&#x2022;</p></td>
   </tr>
   <tr class="dotted-line text-light bg-dark">
     <td class="horizontal" width="40"><h5 id="HEAD1E">&#x2022;</h5></td>
     <td class="text-center" style="width:26%;"><h4 id="HEAD1">&#x2022;</h3></td>
-    <td><p id="HEAD1DESC">description goes here</p></td>
+    <td><p id="HEAD1DESC">&#x2022;</p></td>
   </tr>
   <tr class="text-light bg-darkest">
     <td class="horizontal" width="40"><h5 id="HEAD2E">&#x2022;</h5></td>
     <td class="text-center" style="width:26%;"><h4 id="HEAD2">&#x2022;</h3></td>
-    <td><p id="HEAD2DESC">description goes here</p></td>
+    <td><p id="HEAD2DESC">&#x2022;</p></td>
   </tr>
 </table>
 <table class="section">
@@ -321,17 +315,17 @@
   <tr class="dotted-line text-light bg-darkest">
     <td class="horizontal" width="40"><h5 id="BODY0E">&#x2022;</h5></td>
     <td class="text-center" style="width:26%;"><h4 id="BODY0">&#x2022;</h3></td>
-    <td><p id="BODY0DESC">description goes here</p></td>
+    <td><p id="BODY0DESC">&#x2022;</p></td>
   </tr>
   <tr class="dotted-line text-light bg-dark">
     <td class="horizontal" width="40"><h5 id="BODY1E">&#x2022;</h5></td>
     <td class="text-center" style="width:26%;"><h4 id="BODY1">&#x2022;</h3></td>
-    <td><p id="BODY1DESC">description goes here</p></td>
+    <td><p id="BODY1DESC">&#x2022;</p></td>
   </tr>
   <tr class="text-light bg-darkest">
     <td class="horizontal" width="40"><h5 id="BODY2E">&#x2022;</h5></td>
     <td class="text-center" style="width:26%;"><h4 id="BODY2">&#x2022;</h3></td>
-    <td><p id="BODY2DESC">description goes here</p></td>
+    <td><p id="BODY2DESC">&#x2022;</p></td>
   </tr>
 </table>
 
@@ -346,56 +340,56 @@
     <td class="horizontal" width="40"><h3 class="text-center" id="ITEM0TYPE">&#x2022;</h5></td>
     <td class="text-lightest" width="40"><h3 class="text-center" id="ITEM0QTY">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="ITEM0">&#x2022;</h3></td>
-    <td><p id="ITEM0DESC">description goes here</p></td>
+    <td><p id="ITEM0DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM0ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="dotted-line text-light bg-dark">
     <td class="horizontal" width="40"><h3 class="text-center" id="ITEM1TYPE">&#x2022;</h5></td>
     <td class="text-lightest" width="40"><h3 class="text-center" id="ITEM1QTY">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="ITEM1">&#x2022;</h3></td>
-    <td><p id="ITEM1DESC">description goes here</p></td>
+    <td><p id="ITEM1DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM1ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="dotted-line text-light bg-darkest">
     <td class="horizontal" width="40"><h3 class="text-center" id="ITEM2TYPE">&#x2022;</h5></td>
     <td class="text-lightest" width="40"><h3 class="text-center" id="ITEM2QTY">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="ITEM2">&#x2022;</h3></td>
-    <td><p id="ITEM2DESC">description goes here</p></td>
+    <td><p id="ITEM2DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM2ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="dotted-line text-light bg-dark">
     <td class="horizontal" width="40"><h3 class="text-center" id="ITEM3TYPE">&#x2022;</h5></td>
     <td class="text-lightest" width="40"><h3 class="text-center" id="ITEM3QTY">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="ITEM3">&#x2022;</h3></td>
-    <td><p id="ITEM3DESC">description goes here</p></td>
+    <td><p id="ITEM3DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM3ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="dotted-line text-light bg-darkest">
     <td class="horizontal" width="40"><h3 class="text-center" id="ITEM4TYPE">&#x2022;</h5></td>
     <td class="text-lightest" width="40"><h3 class="text-center" id="ITEM4QTY">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="ITEM4">&#x2022;</h3></td>
-    <td><p id="ITEM4DESC">description goes here</p></td>
+    <td><p id="ITEM4DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM4ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="dotted-line text-light bg-dark">
     <td class="horizontal" width="40"><h3 class="text-center" id="ITEM5TYPE">&#x2022;</h5></td>
     <td class="text-lightest" width="40"><h3 class="text-center" id="ITEM5QTY">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="ITEM5">&#x2022;</h3></td>
-    <td><p id="ITEM5DESC">description goes here</p></td>
+    <td><p id="ITEM5DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM5ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="dotted-line text-light bg-darkest">
     <td class="horizontal" width="40"><h3 class="text-center" id="ITEM6TYPE">&#x2022;</h5></td>
     <td class="text-lightest" width="40"><h3 class="text-center" id="ITEM6QTY">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="ITEM6">&#x2022;</h3></td>
-    <td><p id="ITEM6DESC">description goes here</p></td>
+    <td><p id="ITEM6DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM6ROLL">&#x2022;</h3></td>
   </tr>
   <tr class="text-light bg-dark">
     <td class="horizontal" width="40"><h3 class="text-center" id="ITEM7TYPE">&#x2022;</h5></td>
     <td class="text-lightest" width="40"><h3 class="text-center" id="ITEM7QTY">&#x2022;</h5></td>
     <td class="text-center" style="width:20%;"><h4 id="ITEM7">&#x2022;</h3></td>
-    <td><p id="ITEM7DESC">description goes here</p></td>
+    <td><p id="ITEM7DESC">&#x2022;</p></td>
     <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM7ROLL">&#x2022;</h3></td>
   </tr>
 </table>
@@ -406,57 +400,57 @@
   <tr class="section-header text-mid"> 
     <td ><h3 class="font-oswald">&#9658; Data Logs</h3></td>
   </tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG0">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG1">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG2">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG3">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG4">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG5">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG6">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG7">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG8">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG9">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG10">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG11">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG12">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG13">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG14">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG15">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG16">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG17">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG18">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG19">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG20">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG21">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG22">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG23">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG24">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG25">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG26">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG27">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG28">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG29">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG30">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG31">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG32">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG33">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG34">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG35">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG36">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG37">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG38">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG39">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG40">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG41">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG42">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG43">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG44">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG45">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG46">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG47">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG48">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG49">description goes here</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG50">description goes here</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG0"></p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG1">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG2">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG3">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG4">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG5">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG6">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG7">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG8">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG9">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG10">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG11">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG12">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG13">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG14">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG15">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG16">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG17">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG18">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG19">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG20">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG21">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG22">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG23">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG24">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG25">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG26">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG27">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG28">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG29">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG30">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG31">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG32">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG33">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG34">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG35">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG36">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG37">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG38">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG39">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG40">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG41">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG42">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG43">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG44">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG45">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG46">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG47">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG48">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG49">&#x2022;</p></td></tr>
+  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG50">&#x2022;</p></td></tr>
 </table>
 
 
@@ -465,13 +459,11 @@
 
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- JSON LOADER -->
+
+    <!-- JSON LOADER -- 1s refresh-->
     <script type="text/javascript" src="js/load.json.refresh.js?1010"></script>
 
 

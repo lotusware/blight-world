@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/689bef66cf.js" crossorigin="anonymous" rel="stylesheet"></script>
     <link href="css/style2.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto+Mono&display=swap" rel="stylesheet">
+
   </head>
 
 <script type="application/javascript">
@@ -18,6 +19,8 @@
   <body>
 
 <div class="hud">
+
+
 
   <ul class="nav">
     <li><a href="#attributes"><img src="assets/status.png"></a> </li>
@@ -29,24 +32,30 @@
   </ul>
 
 
-  <table class="status text-center">
-    <tr>
-      <td width="300" colspan="3" class="name text-lightest"><h3 id="NAME">&#x27F3;</h3></td>
-      <td rowspan="2" class="bg-mid text-yellow"><h1><span id="CURAP" style="font-size: 40pt;">&#x2022;</span><span class="horizontal">/</span><span id="MAXAP"  class="horizontal">&#x2022;</span></h1></td>
-    </tr>
-    <tr >
-      <td class="text-yellow bg-mid" height="20"><p><b>Actions Remaining</b></p></td>
-      <td colspan="2" class="bg-mid">
-        <svg width="200" height="10" style="background:#FFD666;" id="APMETER"></svg>
-      </td>
-    </tr>
-    <tr class="name">
-      <td class="text-green"><h3 >HP<svg class="horizontal" width="150" height="5" style="background:#8DD668;" id="HPMETER"></svg> </h3> </td>  
-      <td  class="text-green">  <h3><span id="CURHP">&#x2022;</span>/<span id="MAXHP">&#x2022;</span></h5></td>
-      <td  class="text-blue"><h3>FP</h3></td>  
-      <td  class="text-blue">  <h3><span id="CURFP">&#x2022;</span>/<span id="MAXFP">&#x2022;</span></h5></td>
-    </tr>
-  </table>
+<table class="status text-center">
+  <tr>
+    <td width="300" colspan="3" class="name text-lightest"><h3 id="NAME">&#x27F3;</h3></td>
+    <td rowspan="2" class="bg-mid text-yellow"><h1><span id="CURAP" style="font-size: 40pt;">&#x2022;</span><span class="horizontal">/</span><span id="MAXAP"  class="horizontal">&#x2022;</span></h1></td>
+  </tr>
+  <tr >
+    <td class="text-yellow bg-mid" height="20"><p><b>Actions Remaining</b></p></td>
+    <td colspan="2" class="bg-mid">
+      <svg width="200" height="10" style="background:#FFD666;" id="APMETER">
+        <rect width="0" height="10" style="fill:#130717;stroke-width:2;stroke:rgb(0,0,0)" />
+      </svg>
+    </td>
+  </tr>
+  <tr class="name">
+    <td class="text-green"><h3 >HP         <svg class="horizontal" width="150" height="5" style="background:#8DD668;" id="HPMETER">
+      <rect width="0" height="5" style="fill:#130717;stroke-width:2;stroke:rgb(0,0,0)" />
+    </svg> </h3> 
+      <rect  height="10" style="fill:#130717;stroke-width:2;stroke:rgb(0,0,0)" />
+    </svg></td>  
+    <td  class="text-green">  <h3><span id="CURHP">&#x2022;</span>/<span id="MAXHP">&#x2022;</span></h5></td>
+    <td  class="text-blue"><h3>FP</h3></td>  
+    <td  class="text-blue">  <h3><span id="CURFP">&#x2022;</span>/<span id="MAXFP">&#x2022;</span></h5></td>
+  </tr>
+</table>
 </div>
 
 <!-- ATTRIBUTES -->
@@ -62,7 +71,7 @@
   <tr class="dotted-line text-light bg-darkest">
     <td width="50"><img src="assets/fort.gif"></td>
     <td width="150"><h3 class="text-green">Fortitude</h3></td>
-    <td class="horizontal"><p>🠝<span class="text-lightest"><b>[Endurance]</b></span> [HP] [FP] [Resist] [Accuracy] </p></td>
+    <td class="horizontal"><p>&#9650;<span class="text-lightest"><b>[Endurance]</b></span> [HP] [FP] [Resist] [Accuracy] </p></td>
     <td class="text-center bg-mid"><h3 id="FORTB">&#x2022;</h3></td>
     <td class="text-center bg-mid"><h3 id="FORTE">&#x2022;</h3></td>
     <td class="text-center"><h1 id="FORT" class="text-lightest">&#x2022;</h1></td>
@@ -70,7 +79,7 @@
   <tr class="dotted-line text-light bg-dark">
     <td width="50"><img src="assets/fin.gif"></td>
     <td width="150"><h3 class="text-green">Finesse</h3></td>
-    <td class="horizontal"><p>🠝 <span class="text-lightest"> <b>[Dodge]</b></span> [Persuasion] [Agility] [Acuity] [Perception]</p></td>
+    <td class="horizontal"><p>&#9650;<span class="text-lightest"><b>[Dodge]</b></span> [Persuasion] [Agility] [Acuity] [Perception]</p></td>
     <td class="text-center bg-mid"><h3 id="FINB">&#x2022;</h3></td>
     <td class="text-center bg-mid"><h3 id="FINE">&#x2022;</h3></td>
     <td class="text-center" ><h1 id="FIN" class="text-lightest">&#x2022;</h1></td>
@@ -78,7 +87,7 @@
   <tr class="dotted-line text-light bg-darkest">
     <td width="50"><img src="assets/str.gif"></td>
     <td width="150"><h3 class="text-red">Strength</h3></td>
-    <td class="horizontal"><p>🠝 <span class="text-lightest"> <b>[Melee]</b></span> [HP] [Engineering] [Persuasion] [Wilderness]</p></td>
+    <td class="horizontal"><p>&#9650;<span class="text-lightest"><b>[Melee]</b></span> [HP] [Engineering] [Persuasion] [Wilderness]</p></td>
     <td class="text-center bg-mid"><h3 id="STRB">&#x2022;</h3></td>
     <td class="text-center bg-mid"><h3 id="STRE">&#x2022;</h3></td>
     <td class="text-center" ><h1 id="STR" class="text-lightest">&#x2022;</h1></td>
@@ -86,7 +95,7 @@
   <tr class="dotted-line text-light bg-dark">
     <td width="50"><img src="assets/skl.gif"></td>
     <td width="150"><h3 class="text-red">Skill</h3></td>
-    <td class="horizontal"><p>🠝 <span class="text-lightest"> <b>[Ranged Bonus]</b></span> [Accuracy] [Agility] [Knack] [Persuasion]</p></td>
+    <td class="horizontal"><p>&#9650;<span class="text-lightest"><b>[Ranged Bonus]</b></span> [Accuracy] [Agility] [Knack] [Persuasion]</p></td>
     <td class="text-center bg-mid"><h3 id="SKLB">&#x2022;</h3></td>
     <td class="text-center bg-mid"><h3 id="SKLE">&#x2022;</h3></td>
     <td class="text-center" ><h1 id="SKL" class="text-lightest">&#x2022;</h1></td>
@@ -94,7 +103,7 @@
   <tr class="dotted-line text-light bg-darkest">
     <td width="50"><img src="assets/int.gif"></td>
     <td width="150"><h3 class="text-blue">Intelligence</h3></td>
-    <td class="horizontal"><p>🠝 <span class="text-lightest"> <b>[Support Items]</b></span> [FP] [Acuity] [Engineering] [Knack]</p></td>
+    <td class="horizontal"><p>&#9650;<span class="text-lightest"><b>[Support Items]</b></span> [FP] [Acuity] [Engineering] [Knack]</p></td>
     <td class="text-center bg-mid"><h3 id="INTB">&#x2022;</h3></td>
     <td class="text-center bg-mid"><h3 id="INTE">&#x2022;</h3></td>
     <td class="text-center" ><h1 id="INT" class="text-lightest">&#x2022;</h1></td>
@@ -102,7 +111,7 @@
   <tr class="dotted-line text-light bg-dark">
     <td width="50"><img src="assets/ins.gif"></td>
     <td width="150"><h3 class="text-blue">Insight</h3></td>
-    <td class="horizontal"><p>🠝 <span class="text-lightest"> <b>[Flux]</b></span> [Resist] [Intuition] [Perception] [Wilderness]</p></td>
+    <td class="horizontal"><p>&#9650;<span class="text-lightest"><b>[Flux]</b></span> [Resist] [Intuition] [Perception] [Wilderness]</p></td>
     <td class="text-center bg-mid"><h3 id="INSB">&#x2022;</h3></td>
     <td class="text-center bg-mid"><h3 id="INSE">&#x2022;</h3></td>
     <td class="text-center" ><h1 id="INS" class="text-lightest">&#x2022;</h1></td>
@@ -212,48 +221,33 @@
   </tr>
 </table>
 
+
+
 <!-- COMBAT -->
 <div id="combat" class="spacer"></div>
-<table class="section" style="display: inline-block;">
+<table class="section text-mid">
+  <tr class="section-header text-mid">
+    <td colspan="4"><h3 class="font-oswald">&#9658; Equipped Weapon</h3></td>
+  </tr>
+<tr class="bg-darkest text-light text-center dotted-line">
+  <td width="40"><h3 id="EQTYPE" style="text-align:left;"></h3></td><td class="bg-darkest"><h3 id="EQ"></td>
+    <td class="bg-mid text-lightest"><h3 id="EQROLL">&#x2022;</h3></td><td width="40" class="bg-mid" ><img src="assets/dice.gif" width="40"></td>
+</tr>
+<tr class="bg-dark text-lightest text-center">
+  <td colspan="4"><p class="desc" id="EQDESC">&#x2022;</p></td>
+</tr>
   <tr class="section-header text-mid"> 
-    <td colspan="3"><h3 class="font-oswald">&#9658; Equipped Weapon</h3></td>
-  </tr>
-  <tr class="dotted-line bg-dark text-light text-center">
-    <td width="40"><h3 id="EQTYPE"></h3></td><td colspan="2"><h3 id="EQ"></td>
-  </tr>
-  <tr class="dotted-line bg-darkest text-lightest text-center">
-    <td colspan="2"><h3 id="EQROLL">&#x2022;</h3></td><td width="40" ><img src="assets/dice.gif" width="40"></td>
-  </tr>
-  <tr class="bg-dark text-lightest text-center">
-    <td width="400" colspan="3"><p class="desc" id="EQDESC">&#x2022;</p></td>
-  </tr>
-</table>
-<table style="display: inline-block;">
-  <tr class="section-header text-mid"> 
-    <td width="auto" colspan="3"><h3 class="font-oswald">&#9658; Combat Stats</h3></td>
+    <td width="auto" colspan="4"><h3 class="font-oswald">&#9658; Combat Stats</h3></td>
   </tr>
   <tr class="dotted-line bg-darkest text-lightest">
-    <td colspan="2" ><h3 style="padding-left:10px;">Agility </h3></td>
+    <td  width="100"><h3 style="padding-left:10px;">Agility </h3></td>
+    <td colspan="2"><p>How quickly and frequently you can act in combat.</p></td>
     <td class="text-center"><h2><span id="AGILITY"></span></h2></td>
   </tr>
   <tr class="dotted-line bg-darkest text-lightest">
-    <td  colspan="2"><h3 style="padding-left:10px;">Dodge </td>
+    <td ><h3 style="padding-left:10px;">Dodge</td>
+      <td colspan="2"><p>Liklihood of being able to avoid an attack.</p></td>
       <td class="text-center"><h2><span id="DODGE"></span></h2></td>
-  </tr>
-  <tr class="dotted-line bg-mid text-lightest">
-    <td ><img src="assets/melee.gif" width="40"></td>
-    <td ><h3 ><span id="MELEE"></span></h3></td>
-    <td width="50" class="text-center"><h2 id="MELLEROLL"></h2></td>
-  </tr>
-  <tr class="dotted-line bg-mid text-lightest">
-    <td ><img src="assets/ranged.gif" width="40"></td>
-    <td ><h3><span id="RANGED"></span></h3></td>
-    <td width="50" class="text-center"><h2 id="RANGEDROLL"></h2></td>
-  </tr>
-  <tr class="bg-mid text-lightest">
-    <td ><img src="assets/flux.gif" width="40"></td>
-    <td ><h3><span id="FLUX"></span></h3></td>
-    <td width="50" class="text-center"><h2 id="FLUXROLL"></h2></td>
   </tr>
 </table>
 

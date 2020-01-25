@@ -165,7 +165,6 @@ var LOGS = data.feed.entry[158][playerName]['$t'];	document.getElementById('LOGS
 var NAME = data.feed.entry[159][playerName]['$t'];	document.getElementById('NAME').innerHTML = NAME;
 var APMETER = data.feed.entry[160][playerName]['$t'];	document.getElementById('APMETER').innerHTML = APMETER;
 var HPMETER = data.feed.entry[161][playerName]['$t'];	document.getElementById('HPMETER').innerHTML = HPMETER;
-var FPMETER = data.feed.entry[162][playerName]['$t'];	document.getElementById('FPMETER').innerHTML = FPMETER;
 var AttacksLeft = data.feed.entry[163][playerName]['$t'];	document.getElementById('AttacksLeft').innerHTML = AttacksLeft;
 var isKNACK = data.feed.entry[164][playerName]['$t'];	document.getElementById('isKNACK').innerHTML = isKNACK;
 

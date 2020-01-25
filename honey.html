@@ -7,7 +7,7 @@
     <title >MAG - Management Assist Gear</title>
     <meta name="referrer" content="strict-origin" />
     <script src="https://kit.fontawesome.com/689bef66cf.js" crossorigin="anonymous" rel="stylesheet"></script>
-    <link href="css/style2.css" rel="stylesheet">
+    <link href="css/style2.css?v=01252020" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto+Mono&display=swap" rel="stylesheet">
 
   </head>
@@ -125,24 +125,19 @@
     <td width="50" class="text-center bg-yellow"><h3>&#9670;</h3></td>
     <td width="50" class="text-center bg-red" ><h3>&#9733;</h3></td>
   </tr>
-  <tr class="dotted-line text-light bg-darkest">
-    <td width="150"><h3 class="text-lightest pad-left">Knack</h3></td>
-    <td class="horizontal"><p>Getting the hang of things ...or for when all else fails</p></td>
+  <tr class="text-light bg-darkest">
+    <td width="150" class="horizontal" ><h3 class="text-lightest pad-left">Knack</h3></td>
+    <td class="horizontal"><p>If at first you don't succeed... or when all else fails.</p></td>
+    <td width="150" class="vertical"><h3 class="text-lightest pad-left">Knack</h3></td>
     <td class="text-center bg-mid"><h4 id="KnackB">&#x2022;</h4></td>
     <td class="text-center bg-mid"><h4 id="KnackE">&#x2022;</h4></td>
-    <td class="text-center"><h1 id="Knack" class="text-lightest">&#x2022;</h1></td>
-    <td class="text-center text-yellow"><h3 id="KnackDIFF">&#x2022;</h3></td>
-    <td class="text-center text-red"><h3 id="KnackIMP">&#x2022;</h3></td>
+    <td class="text-center" colspan="3"><h1>+<span id="Knack" class="text-lightest">&#x2022;</span></h1></td>
   </tr>
-  <tr class="dotted-line text-light bg-dark">
-    <td width="150"><h3 class="text-lightest pad-left"  >Accuracy</h3></td>
-    <td class="horizontal"><p>How likely ranged attacks will hit and displays of great aim</p></td>
-    <td class="text-center bg-mid"><h4 id="AccuracyB">&#x2022;</h4></td>
-    <td class="text-center bg-mid"><h4 id="AccuracyE">&#x2022;</h4></td>
-    <td class="text-center"><h1 id="Accuracy" class="text-lightest">&#x2022;</h1></td>
-    <td class="text-center text-yellow"><h3 id="AccuracyDIFF">&#x2022;</h3></td>
-    <td class="text-center text-red"><h3 id="AccuracyIMP">&#x2022;</h3></td>
+
+  <tr id="isKNACK" style="border-bottom-width: 3px; border-bottom-style: outset; font-weight: bold;" class="bg-dark text-yellow text-center">
+
   </tr>
+
   <tr class="dotted-line text-light bg-darkest">
     <td width=" 150"><h3 class="text-lightest pad-left"  >Endurance</h3></td>
     <td class="horizontal"><p>Withstand weariness and less severe ailments</p></td>
@@ -225,23 +220,32 @@
   </tr>
 <tr class="bg-darkest text-light text-center dotted-line">
   <td width="40"><h3 id="EQTYPE" style="text-align:left;"></h3></td><td class="bg-darkest"><h3 id="EQ"></td>
-    <td class="bg-mid text-lightest"><h3 id="EQROLL">&#x2022;</h3></td><td width="40" class="bg-mid" ><img src="assets/dice.gif" width="40"></td>
+    <td class="bg-mid text-lightest" style="width:20%;"><h3 id="EQROLL">&#x2022;</h3></td><td width="40" class="bg-mid" ><img src="assets/dice.gif" width="40"></td>
 </tr>
 <tr class="bg-dark text-lightest text-center">
   <td colspan="4"><p class="desc" id="EQDESC">&#x2022;</p></td>
 </tr>
+</table>
+
+<table class="section text-mid">
   <tr class="section-header text-mid"> 
     <td width="auto" colspan="4"><h3 class="font-oswald">&#9658; Combat Stats</h3></td>
   </tr>
+  <tr class="dotted-line text-lightest bg-darkest">
+    <td width="100"><h3 class="bg-darkest text-lightest pad-left">Accuracy</h3></td>
+    <td class="padding-left" ><p >How likely your ranged attack will hit your target</p></td>
+    <td width="50" class="text-center padding-left"><h1 id="Accuracy" class="text-lightest">&#x2022;</h1></td>
+    <td class="text-center text-yellow"><h3 id="AccuracyDIFF">&#x2022;</h3></td>
+  </tr>
   <tr class="dotted-line bg-darkest text-lightest">
     <td  width="100"><h3 style="padding-left:10px;">Agility </h3></td>
-    <td colspan="2"><p>How quickly and frequently you can act in combat.</p></td>
-    <td class="text-center"><h2><span id="AGILITY"></span></h2></td>
+    <td class="padding-left"><p >How quickly and frequently you can act in combat.</p></td>
+    <td width="100" colspan="2" class="text-center padding-left"><h2><span id="AGILITY"></span></h2></tdcolspan="2">
   </tr>
   <tr class="dotted-line bg-darkest text-lightest">
     <td ><h3 style="padding-left:10px;">Dodge</td>
-      <td colspan="2"><p>Liklihood of being able to avoid an attack.</p></td>
-      <td class="text-center"><h2><span id="DODGE"></span></h2></td>
+      <td class="padding-left" ><p >Liklihood of being able to avoid an attack.</p></td>
+      <td width="100" colspan="2" class="text-center padding-left"><h2><span id="DODGE"></span></h2></tdcolspan="2">
   </tr>
 </table>
 
@@ -397,60 +401,8 @@
 <!-- LOGS  -->
 <div id="datalog" class="spacer"></div>
 <table class="section">
-  <tr class="section-header text-mid"> 
-    <td ><h3 class="font-oswald">&#9658; Data Logs</h3></td>
-  </tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG0"></p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG1">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG2">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG3">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG4">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG5">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG6">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG7">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG8">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG9">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG10">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG11">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG12">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG13">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG14">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG15">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG16">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG17">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG18">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG19">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG20">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG21">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG22">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG23">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG24">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG25">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG26">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG27">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG28">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG29">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG30">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG31">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG32">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG33">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG34">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG35">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG36">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG37">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG38">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG39">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG40">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG41">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG42">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG43">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG44">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG45">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG46">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG47">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG48">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG49">&#x2022;</p></td></tr>
-  <tr class="text-light bg-darkest dotted-line"><td><p class="desc" id="LOG50">&#x2022;</p></td></tr>
+  <tr class="section-header text-mid"><td><h3 class="font-oswald">&#9658; Data Logs</h3></td></tr>
+  <tr class="text-light bg-darkest"><td><p id="LOGS" class="desc dotted-line" style="line-height: 1.5em;"></p></td></tr>
 </table>
 
 
@@ -464,7 +416,7 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
     <!-- JSON LOADER -- 1s refresh-->
-    <script type="text/javascript" src="js/load.json.refresh.js?1010"></script>
+    <script type="text/javascript" src="js/load.json.refresh.js?01252020"></script>
 
 
 

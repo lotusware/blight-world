@@ -13,12 +13,13 @@ In layman's terms--a DM or Dungeon Master.  The Principal is responsible for cus
 
 ##### You will need...
 * a Google Account--for managing the Google Sheet
-* if Pen-and-Paper
+* if Pen-and-Paper (you are physically hosting a session with your players)
   * tablet or laptop
   * secondary screen, or a way to print out maps
-* if Play-on-Stream
+* if Play-on-Stream (hosting a session over livetream)
   * Twitch channel or any Streamlabs-compatible service
   * Voice app to host the session and its players
+  * Method for implemeting a custom chatbot
 
 ### As a Player, you will need...
 

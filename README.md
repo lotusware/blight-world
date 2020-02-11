@@ -13,10 +13,10 @@ In layman's terms--a DM or Dungeon Master.  The Principal is responsible for cus
 
 
 ### You will need 
-Pen-and-Paper | Computer | Twitch
------------- | ------------- | -----
-Content from cell 1 | Content from cell 2 | test
-Content in the first column | Content in the second column | test
+` ` | Pen-and-Paper | Computer / Tablet | Play-on-Stream
+Dice | Yes | Yes | Optional
+test | Content from cell 1 | Content from cell 2 | test
+test | Content in the first column | Content in the second column | test
 
 * a Google Account--for managing the Google Sheet
 

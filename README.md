@@ -11,13 +11,24 @@ If you're only interested in seeing how the game is changing for you as a player
 ### Prerequisits as "Principal"
 In layman's terms--a DM or Dungeon Master.  The Principal is responsible for customizing encounters, moving the story forward, or even flat out designing areas/battles based on the ever-growing pool of resources.
 
+##### You will need...
+* a Google Account--for managing the Google Sheet
+* if Pen-and-Paper
+  * A tablet or laptop
+  * A secondary screen or a way to print out maps
+* if Play-on-Stream
+  * Twitch channel or any Streamlabs-compatible service
 
-### As a Player, you will need 
 
-If session is... | Pen-and-Paper | Computer / Tablet | Play-on-Stream
+
+### As a Player, you will need...
+
+If session is... | Pen-and-Paper | Play-on-Stream
 --- | ------------- | ----------------- | --------------
-**DICE** | Yes | Yes | Optional
-**APP** | Yes
+**DICE** | Yes | Optional
+**WEB APP** | Yes | Yes
+**VOICE APP** | No | Yes
+
 
 
 

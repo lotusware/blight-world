@@ -24,7 +24,7 @@ In layman's terms--a DM or Dungeon Master.  The Principal is responsible for cus
 ### As a Player, you will need...
 
 If session is... | Pen-and-Paper | Play-on-Stream
---- | ------------- | ----------------- | --------------
+------------- | ----------------- | --------------
 **DICE** | Yes | Optional
 **WEB APP** | Yes | Yes
 **VOICE APP** | No | Yes

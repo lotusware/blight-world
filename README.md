@@ -12,7 +12,13 @@ If you're only interested in seeing how the game is changing for you as a player
 In layman's terms--a DM or Dungeon Master.  The Principal is responsible for customizing encounters, moving the story forward, or even flat out designing areas/battles based on the ever-growing pool of resources.
 
 You will need 
+`` | Pen-and-Paper | Twitch
+---|---------------|--------
+data | data 2 | data 3
+
 * a Google Account--for managing the Google Sheet
+
+
 * a secondary screen, or a way to print out maps.
 
 Your players will need

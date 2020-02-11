@@ -19,5 +19,5 @@ Your players will need
 * a standard 7-dice set of polyhedral dice
   * d4 / d6 / d8 / d12 / two d10s for percentile rolls (0 to 9, 00 to 90) / d20
 * a javascript-enabled smartphone
-  
+* an internet connection
 

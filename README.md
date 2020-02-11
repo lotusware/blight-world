@@ -13,8 +13,9 @@ In layman's terms--a DM or Dungeon Master.  The Principal is responsible for cus
 
 
 ### As a Principal, you will need 
+
 What You Need | Pen-and-Paper | Computer / Tablet | Play-on-Stream
-- | ------------- | ----------------- | --------------
+--- | ------------- | ----------------- | --------------
 **DICE** | Yes | Yes | Optional
 **SMARTPHONE** | No | No | No
 

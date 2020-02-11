@@ -31,6 +31,6 @@ If session is... | Pen-and-Paper | Play-on-Stream
 
 
 # Stretch Goals
--[ ] Move resources out of Google Sheets
--[ ] Create a downloadable package so folks can host on their own
--[ ] Build out the game in Unity to deploy to Steam
+-[] Move resources out of Google Sheets
+-[] Create a downloadable package so folks can host on their own
+-[] Build out the game in Unity to deploy to Steam

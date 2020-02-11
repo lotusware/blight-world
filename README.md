@@ -28,3 +28,9 @@ If session is... | Pen-and-Paper | Play-on-Stream
 **DICE** | Yes | Optional
 **WEB APP** | Yes | Yes
 **VOICE APP** | No | Yes
+
+
+# Stretch Goals
+-[ ] ### Move resources out of Google Sheets
+-[ ] ### Create a downloadable package so folks can host on their own
+-[ ] ### Build out the game in Unity to deploy to Steam

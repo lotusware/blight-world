@@ -11,12 +11,12 @@ If you're only interested in seeing how the game is changing for you as a player
 ### Prerequisits as "Principal"
 In layman's terms--a DM or Dungeon Master.  The Principal is responsible for customizing encounters, moving the story forward, or even flat out designing areas/battles based on the ever-growing pool of resources.
 
-You will need 
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+### You will need 
+Pen-and-Paper | Computer | Twitch
+------------ | ------------- | -----
+Content from cell 1 | Content from cell 2 | test
+Content in the first column | Content in the second column | test
 
 * a Google Account--for managing the Google Sheet
 

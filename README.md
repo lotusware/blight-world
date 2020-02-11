@@ -12,12 +12,12 @@ If you're only interested in seeing how the game is changing for you as a player
 In layman's terms--a DM or Dungeon Master.  The Principal is responsible for customizing encounters, moving the story forward, or even flat out designing areas/battles based on the ever-growing pool of resources.
 
 
-### You will need 
-   | Pen-and-Paper | Computer / Tablet | Play-on-Stream
---- | ------------- | ----------------- | --------------
-Dice | Yes | Yes | Optional
-test | Content from cell 1 | Content from cell 2 | test
-test | Content in the first column | Content in the second column | test
+### As a Principal, you will need 
+What You Need | Pen-and-Paper | Computer / Tablet | Play-on-Stream
+- | ------------- | ----------------- | --------------
+**DICE** | Yes | Yes | Optional
+**SMARTPHONE** | No | No | No
+
 
 * a Google Account--for managing the Google Sheet
 

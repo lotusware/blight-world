@@ -1,7 +1,8 @@
 # Blightworld
+##### CURRENTLY IN CLOSED BETA
 A free to play tabletop RPG powered by Google Sheets + Javascriptset set in the world of ERAFLUX, with a companion app that helps with handling more of the complex aspects.  
 
-##### CURRENTLY IN CLOSED BETA
+
 
 ### PLAYERS - Getting started
 If you're only interested in seeing how the game is changing for you as a player come April I'll be [hosting the closed beta sessions on Twitch](https://www.twitch.tv/lotusware) if you want to follow there.

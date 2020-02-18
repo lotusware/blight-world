@@ -12,6 +12,7 @@
 # FOR PLAYERS
 ### Okay so if you want to play...
 Its in closed beta until I can iron things out and will probably be there for a while until I can build a solution that isn't based out of Google Sheets.  
+
 ### That being said...
 If you're interested in seeing how the game is changing for you as a player come April I'll be [hosting the closed beta sessions on Twitch](https://www.twitch.tv/lotusware) if you want to follow there.  As time allows, I'll be opening up more hosting sessions but for now, I think I am limited to only two a week.
 
@@ -19,5 +20,5 @@ If you're interested in seeing how the game is changing for you as a player come
 Even though you're not playing, you can earn dust over time by being in the channel.  Dust in-game has many uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending Dust (streamlab points) or Dust Fragments (channel points).
 
 ### Channel Commands
-`!Breathe 123`
-`!Scatter 123`
+- `!Breathe 123`  - Consume an amount of Dust to move the World Dial towards Ire
+- `!Scatter 123`  - Consume an amount of Dust to move the world Dial towards Calm

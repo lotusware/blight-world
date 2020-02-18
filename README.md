@@ -1,6 +1,6 @@
 ![BLIGHTWORLD - Currently in Closed Beta - April 2020](https://blight.world/twitch/twitch/video-player-banner.jpg)
 
-##### BLIGHTWORLD is A free to play tabletop RPG powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX, with a companion app that helps with handling more of the complex aspects for players.
+#### BLIGHTWORLD is a free to play tabletop RPG powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX, with a companion app that helps with handling more of the complex aspects for players.
 
 ### FOR PLAYERS - Getting started
 If you're only interested in seeing how the game is changing for you as a player come April I'll be [hosting the closed beta sessions on Twitch](https://www.twitch.tv/lotusware) if you want to follow there.

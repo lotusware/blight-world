@@ -1,13 +1,14 @@
-# Blightworld
+# BLIGHTWORLD
 ##### CURRENTLY IN CLOSED BETA
-A free to play tabletop RPG powered by Google Sheets + Javascriptset set in the world of ERAFLUX, with a companion app that helps with handling more of the complex aspects.  
+BLIGHTWORLD is A free to play tabletop RPG powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX, with a companion app that helps with handling more of the complex aspects for players.
 
-
-
-### PLAYERS - Getting started
+### FOR PLAYERS - Getting started
 If you're only interested in seeing how the game is changing for you as a player come April I'll be [hosting the closed beta sessions on Twitch](https://www.twitch.tv/lotusware) if you want to follow there.
 
-### What you I do as a viewer?
+### PATCHNOTES
+
+
+### FOR VIEWERS - What you can do
 Even though you're not playing, you can earn dust over time by being in the channel.  Dust in-game has many uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending Dust (channel points) or Dust Fragments (streamlabs points).  
 
 The commands are to *Breathe Dust* which increases difficulty and rewards of the game, or *Scatter Dust*--decreasing difficulty and rewards.  

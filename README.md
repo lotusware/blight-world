@@ -10,7 +10,7 @@ If you're only interested in seeing how the game is changing for you as a player
 Even though you're not playing, you can earn dust over time by being in the channel.  Dust in-game has many uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending Dust.  The options planned out is to *Breathe Dust* which increases difficulty of the game, or *Scatter Dust*--decreasing difficulty.  
 
 WORLD DIAL | Ire 30 | Ire 15 | +/- 15 | Calm 15 | Calm 30
------|---------|--------|--------|--------
+-----|-----|---------|--------|--------|--------
 Enemy level | + 25% | + 10%  |    |  - 10% |  - 25%
 Dust awarded | + 50% | + 25% |   | - 25% |  - 50%
 First Meetings | -2 Friendship | -1 Friendship | Neutral  |  +1 Friendship |  +2 Friendship

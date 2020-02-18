@@ -9,6 +9,11 @@ If you're only interested in seeing how the game is changing for you as a player
 ## What you I do as a viewer?
 Even though you're not playing, you can earn dust over time by being in the channel.  Dust in-game has many uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending Dust.  The options planned out is to *Breathe Dust* which increases difficulty of the game, or *Scatter Dust*--decreasing difficulty.  
 
+Ire 30 | Ire 15 | +/- 15 | Calm 15 | Calm 30
+-----|---------|--------|--------|--------
+Enemy level + 25% | Enemy level + 10%  | Enemies Neutral  | Enemy level - 10% | Enemy level - 25%
+Dust awarded + 50% | Dust awarded + 25% | Dust awarded Neutral  | Enemy level - 25%| Enemy level - 50%
+First Meetings -2 Friendship | -1 Friendship | Neutral friendship  | First Meetings +1 Friendship | First Meetings +2 Friendship
 
 
 

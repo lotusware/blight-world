@@ -10,7 +10,7 @@ a{text-decoration: none; color:#8DD668;z-index:2000}
 
 ul {list-style-type: none;}
 li{margin: -4px -4px -4px -4px; width:auto;}
-body{ background-image: url("../assets/bkg.gif"); background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover;}
+body{ background-image: url("../assets/bkg.gif"); background-size:50%; background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover;}
 table{ width:auto; border-color:#CFDFDD; border-radius: 5px; border-style: outset; border-spacing: 0;border-collapse: collapse;}  
 td{padding:2pt 2pt 2pt 2pt;}
 .dotted-line,hr{border-bottom:solid; border-bottom-style:dotted; border-bottom-width:  1px; border-bottom-color: #416C76;}
@@ -68,6 +68,7 @@ p{font-size:10pt;}p.desc{font-size:12pt;padding:5px 5px 5px 5px}
 li{display:inline-block}
 .nav{width:100%}
 .status{left:0; top:60px;}
+.section{width:100%;}
 }
 
 /* Horiztonal Mode */

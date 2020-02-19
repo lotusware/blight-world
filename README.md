@@ -13,13 +13,17 @@
 
 # FOR PLAYERS
 ### Okay so if you want to play...
-Feel free to create a character via [Google Form - PEACEKEEPER Application](https://docs.google.com/forms/d/e/1FAIpQLSdmjwwZHayq47IHvxQiucQkFVtI5mC1rq6w7P7Ju3KLcgfMDg/viewform).  The game is in closed beta until I can iron things out and will probably be there for a while until I can build a solution that isn't based out of Google Sheets.  You can tweet me @EraFlux, or whisper LOTUSWARE on Twitch so I know who to send the profile to if I don't know who you are.
+Feel free to create a character via [Google Form - PEACEKEEPER Application](https://docs.google.com/forms/d/e/1FAIpQLSdmjwwZHayq47IHvxQiucQkFVtI5mC1rq6w7P7Ju3KLcgfMDg/viewform). 
+
+The game is in closed beta until I can iron things out and will probably be there for a while until I can build a solution that isn't based out of Google Sheets.  You can tweet me @EraFlux, or whisper LOTUSWARE on Twitch so I know who to send the profile to if I don't know who you are.
 
 ### That being said...
 If you're interested in seeing how the game is changing for you as a player come April (maybe sooner) I'll be [hosting the closed beta sessions on Twitch](https://www.twitch.tv/lotusware) if you want to follow there.  As time allows, I'll be opening up more hosting sessions but for now, I think I am limited to only two a week.
 
 # FOR VIEWERS
-Even though you're not playing, you can earn dust over time by being in the channel.  Dust in game has many uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending Dust (streamlab points) or Dust Fragments (channel points).  Dust tends to be more powerful, 
+Even though you're not playing, you can earn **Dust** over time by watching the game be played by others. 
+
+Dust has many in-game uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending **Dust** (streamlab points) or **Dust Fragments** (channel points).  Although using either **Dust** or **Dust Fragments** can have a profound impact in Blightworld, only Dust Fragments used to create events/items/effects in the game world.  
 
 ### Channel Commands
 - `!Breathe 123`  - Consume an amount of Dust to move the World Dial towards **Ire**

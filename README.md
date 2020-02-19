@@ -11,7 +11,7 @@
 - **`QoL` Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
 
 
-# A brief history of the World of ERAFLUX
+# A brief history of the World of *ERAFLUX*
 #### VOID ERA - Prehistory
 - **Otherworlders** create life from the darkness from which vivilizations rise and build out of hte nothingness that existed
 - Connection to the power of the **Otherworld** discovered--called **Flux** and after many years, naturally was used to advance technology and weapons
@@ -37,7 +37,7 @@
 - After some time, a long-reaching arm of government is created, with a focus on technological research and military force
 - This group is called the **PEACEKEEPERS** and they are sent out to deploy outposts on neighbouring systems in an attempt to bring the unruly under the order of the **GAF**
 - The furthest of these outposts from the core worlds is on **Ermoor**--set up as an experimental reasearch center and as a way to stake claim in the unknown regions of space
-### This is where the story of Blightworld begins
+### This is where the story of *Blightworld* begins
 Some years after the outpost on Ermoor has been operating--as you and others are recruited from neighbouring systems jump at the opportunity to join the PEACEKEEPER ranks. Your mission is yet unknown to you, but still you are haunted by an inescapable dread and plagued by a visions of what's to come...
 
 

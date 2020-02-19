@@ -4,6 +4,8 @@
 
 
 ### PATCHNOTES
+##### Feb-19-2020
+- **PEACEKEEPER Application revised** : Got rid of some redundant questions and better explained a few elements to make it easier to roll a character.
 ##### Feb-17-2020
 - **Bonus, Equip, Total now rendered as one item in app** : This is just so it takes less resources and can be maintained easier.
 - **Added Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
@@ -11,7 +13,7 @@
 
 # FOR PLAYERS
 ### Okay so if you want to play...
-Its in closed beta until I can iron things out and will probably be there for a while until I can build a solution that isn't based out of Google Sheets.  
+Feel free to create a character via [Google Form - PEACEKEEPER Application](https://forms.gle/zZK9XtbU6pHeG34L8Its).  The game is in closed beta until I can iron things out and will probably be there for a while until I can build a solution that isn't based out of Google Sheets.  You can tweet me @EraFlux, or whisper LOTUSWARE on Twitch so I know who to send the profile to if I don't know who you are.
 
 ### That being said...
 If you're interested in seeing how the game is changing for you as a player come April I'll be [hosting the closed beta sessions on Twitch](https://www.twitch.tv/lotusware) if you want to follow there.  As time allows, I'll be opening up more hosting sessions but for now, I think I am limited to only two a week.

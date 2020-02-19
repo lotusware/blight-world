@@ -1,9 +1,10 @@
 ![BLIGHTWORLD - Currently in Closed Beta - April 2020](https://blight.world/twitch/twitch/video-player-banner.jpg)
 
-- https://blight.world/#patchnotes
-- https://blight.world/#about-the-game
-- https://blight.world/#okay-so-if-you-want-to-play
-- https://blight.world/#for-viewers
+- [Patchnotes](#patchnotes)
+- [About](#about-the-game)
+- [For Players](#okay-so-if-you-want-to-play)
+- [For Viewers](#for-viewers)
+- [Channel Commands](#channel-commands)
 
 
 ## PATCHNOTES

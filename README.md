@@ -23,7 +23,16 @@ If you're interested in seeing how the game is changing for you as a player come
 # FOR VIEWERS
 Even though you're not playing, you can earn **Dust** over time by watching the game be played by others. 
 
-Dust has many in-game uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending **Dust** (streamlab points) or **Dust Fragments** (channel points).  Although using either **Dust** or **Dust Fragments** can have a profound impact in Blightworld, only Dust Fragments used to create events/items/effects in the game world.  
+Dust has many in-game uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending **Dust** (streamlab points) or **Dust Fragments** (channel points).  Although using either **Dust** or **Dust Fragments** can have a profound impact in Blightworld, only Dust shifts the world towards Ire or Calm, and only **Dust Fragments** can be used to create events/items/effects in the game world.
+
+More Ire | More Calm
+---------|----------
+Enemies are stronger but drop better items | Enemies are weaker and drop fewer items
+Inhabitants of the world are more wary of players | Inhabitants are more trusting and friendly towads players
+Ire-aligned quests may become available | Calm-aligned quets may become available
+
+Using **Dust Fragments** can have such effects as bringing back bosses or inhabitants as revenants, applying modifications to enemies, and leaving messages in player's data logs, to name a few.
+
 
 ### Channel Commands
 - `!Breathe 123`  - Consume an amount of Dust to move the World Dial towards **Ire**

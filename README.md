@@ -15,7 +15,7 @@
 - **`QoL` Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
 
 ## About the game
-*Blightworld is a free-to-play hybrid tabletop-RPG-slash-videogame powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX—more on that below—with a companion app that helps with handling more of the complex aspects for players.  Sounds complicated, but the framework handles most of the back-end tracking and formulas.*
+*Blightworld is a free-to-play hybrid tabletop-RPG-slash-videogame powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX—more on that below—with a companion app that helps with handling more of the complex aspects for players.  Along with Twitch integration, viewers have the ability to change the world that the players find themselves in.  Sounds complicated, but the framework handles most of the back-end tracking and formulas.*
 
 ## A brief history of the World of *ERAFLUX*
 #### VOID ERA - Prehistory

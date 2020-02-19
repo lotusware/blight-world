@@ -5,10 +5,10 @@
 
 ### PATCHNOTES
 ##### Feb-19-2020
-- **PEACEKEEPER Application revised** : Got rid of some redundant questions and better explained a few elements to make it easier to roll a character.
+- **`QoL` PEACEKEEPER Application** : Got rid of some redundant questions and better explained a few elements to make it easier to roll a character.
 ##### Feb-17-2020
-- **Bonus, Equip, Total now rendered as one item in app** : This is just so it takes less resources and can be maintained easier.
-- **Added Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
+- **`Bugfix` Bonus, Equip, Total now rendered as one item in app** : This is just so it takes less resources and can be maintained easier.
+- **`QoL` Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
 
 
 # FOR PLAYERS

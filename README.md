@@ -11,7 +11,7 @@
 - **`QoL` Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
 
 
-### A brief history of the World of ERAFLUX
+# A brief history of the World of ERAFLUX
 #### VOID ERA - Prehistory
 - OTHERWORLDERS create life from the darkness from which vivilizations rise and build out of hte nothingness that existed
 - Connection to the power of the *Otherworld* discovered--called Flux and after many years, naturally was used to advance technology and weapons

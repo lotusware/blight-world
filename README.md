@@ -11,7 +11,35 @@
 - **`QoL` Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
 
 
-# FOR PLAYERS
+### A brief history of the World of ERAFLUX
+#### VOID ERA - Prehistory
+- OTHERWORLDERS create life from the darkness from which vivilizations rise and build out of hte nothingness that existed
+- Connection to the power of the *Otherworld* discovered--called Flux and after many years, naturally was used to advance technology and weapons
+- Galactic War was fought acrsoss the universe. Otherworlders intervene--destroying everything.
+- In the wake of the conflict, the Otherworlders create the *World Seed* which acts as the will of the Flux in their stead.
+- The next of the civilizations begin to rebuild around the now planet-sized World Seed, naming the system Kaircoran 
+#### CATALYST - Year 0
+- The World Seed choses the Six--being bestowed a great power and knowledge to guide the universe
+- One of the Six attempts to usurp the seed--but in doing so, the Six are banisehd across time and space, creating rifts
+- The World Seed, instead of advancing the universe in accordance to the Otherworlders' wills, attempts to course correct any effects due to the exploitation of these rifts.
+#### ENLIGHTED ERA - Year 850
+- Over time, all knowledge of the Otherworlders, the Six, and these rifts become legend and myth
+- The first of the post-Catalyst studies of Flux are conducted by the Guardians, who ensured that they would continue to pass their knowledge and skill down the generations
+- The first of the rifts were discovered, thanks to the help of a powerful being named Archos and through him, the rift was sealaed in an object called an Atlas
+- Archos continued to commit to closing as many rifts as he could find with the help of the Guardians
+- Another mysterious being emerges and hunts down Archos and his Guardians, corrupting those who desired power
+- Eventually, after much conflict, The Guardians are no more, and those followed their new master become known as Acolytes
+#### DAWN ERA - Year 1175
+- With the shadows cast over the universe still in peoples' minds, several core systems band together under a unified government
+- The Galactic Autocratic Federacy is born, ruled over by a being known as The Unarch
+- There are still pockets of dangerous systems throughout the universe, and a great unkown waiting to be discovered-
+- A long-reaching arm of government is created, with a focus on technological research, military, and enforcement
+- This group is called the PEACEKEEPERS and they are sent out to deploy outposts on neighbouring systems in an attempt to being the unruly under the order of the Federacy.
+- The furthest of these outposts from the core worlds is on Ermoor--set up as an experimental reasearch center and as a way to stake claim in the unknown regions of space
+#### This is where the story of Blightworld begins--some years after the outpost has been operational--as players are recruited from neighbouring systems to join the ranks of the PEACEKEEPERS
+
+
+# For Players
 ### Okay so if you want to play...
 Feel free to create a character via [Google Form - PEACEKEEPER Application](https://docs.google.com/forms/d/e/1FAIpQLSdmjwwZHayq47IHvxQiucQkFVtI5mC1rq6w7P7Ju3KLcgfMDg/viewform). 
 
@@ -20,7 +48,7 @@ The game is in closed beta until I can iron things out and will probably be ther
 ### That being said...
 If you're interested in seeing how the game is changing for you as a player come April (maybe sooner) I'll be [hosting the closed beta sessions on Twitch](https://www.twitch.tv/lotusware) if you want to follow there.  As time allows, I'll be opening up more hosting sessions but for now, I think I am limited to only two a week.
 
-# FOR VIEWERS
+# For Viewers
 Even though you're not playing, you can earn **Dust** over time by watching the game be played by others. 
 
 Dust has many in-game uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending **Dust** (streamlab points) or **Dust Fragments** (channel points).  Although using either **Dust** or **Dust Fragments** can have a profound impact in Blightworld, only Dust shifts the world towards Ire or Calm, and only **Dust Fragments** can be used to create events/items/effects in the game world.

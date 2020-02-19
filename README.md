@@ -1,7 +1,5 @@
 ![BLIGHTWORLD - Currently in Closed Beta - April 2020](https://blight.world/twitch/twitch/video-player-banner.jpg)
 
-*Blightworld is a free-to-play hybrid tabletop-RPG-slash-videogame powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX, with a companion app that helps with handling more of the complex aspects for players.  Sounds complicated, but the framework handles most of the back-end tracking and formulas.*
-
 
 ### PATCHNOTES
 ##### Feb-19-2020
@@ -10,17 +8,19 @@
 - **`Bugfix` Bonus, Equip, Total now rendered as one item in app** : This is just so it takes less resources and can be maintained easier.
 - **`QoL` Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
 
+### About the game
+*Blightworld is a free-to-play hybrid tabletop-RPG-slash-videogame powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX—more on that below—with a companion app that helps with handling more of the complex aspects for players.  Sounds complicated, but the framework handles most of the back-end tracking and formulas.*
 
 # A brief history of the World of *ERAFLUX*
 #### VOID ERA - Prehistory
 - **Otherworlders** create life from the darkness from which vivilizations rise and build out of hte nothingness that existed
-- Connection to the power of the **Otherworld** discovered--called **Flux** and after many years, naturally was used to advance technology and weapons
-- Galactic War was fought acrsoss the universe. **Otherworlders** intervene--destroying everything.
+- Connection to the power of the **Otherworld** discovered—called **Flux** and after many years, naturally was used to advance technology and weapons
+- Galactic War was fought acrsoss the universe. **Otherworlders** intervene—destroying everything.
 - In the wake of the conflict, the **Otherworlders** create the **World Seed** which acts as the will of the **Flux** in their stead.
 - The next of the civilizations begin to rebuild around the now planet-sized **World Seed**, naming the system **Kaircoran**
 #### CATALYST - Year 0
-- The **World Seed** choses **The Six**--beings bestowed a great power and knowledge to guide the universe
-- One of **The Six** attempts to usurp the seed--but in doing so, **The Six** are pulled across time and space, creating great rifts from which **Flux** pours out
+- The **World Seed** choses **The Six**—beings bestowed a great power and knowledge—to guide the universe
+- One of **The Six** attempts to usurp the seed but in doing so, **The Six** are pulled across time and space, creating great rifts from which **Flux** pours out
 - The **World Seed**, instead of advancing the universe in accordance to the **Otherworlders'** wills, attempts to course correct any effects due to the exploitation of these rifts.
 #### ENLIGHTED ERA - Year 850
 - Over time, all knowledge of the **Otherworlders, the Six**, and these rifts become legend and myth
@@ -36,9 +36,9 @@
 - These core planets set up their government on the technologically-rich system of Kaircoran
 - After some time, a long-reaching arm of government is created, with a focus on technological research and military force
 - This group is called the **PEACEKEEPERS** and they are sent out to deploy outposts on neighbouring systems in an attempt to bring the unruly under the order of the **GAF**
-- The furthest of these outposts from the core worlds is on **Ermoor**--set up as an experimental reasearch center and as a way to stake claim in the unknown regions of space
+- The furthest of these outposts from the core worlds is on **Ermoor**—set up as an experimental reasearch center and as a way to stake claim in the unknown regions of space
 ### This is where the story of *Blightworld* begins
-Some years after the outpost on Ermoor has been operating--as you and others are recruited from neighbouring systems jump at the opportunity to join the PEACEKEEPER ranks. Your mission is yet unknown to you, but still you are haunted by an inescapable dread and plagued by a visions of what's to come...
+Set some years after the outpost on Ermoor has been operating, you along with many others jump at the opportunity to join the PEACEKEEPER ranks, especially at such a great paygrade.  Your mission is yet unknown to you, but still you are haunted by an inescapable dread and plagued by a visions of what's to come...
 
 
 # For Players

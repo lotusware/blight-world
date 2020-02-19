@@ -2,20 +2,21 @@
 
 - https://blight.world/#patchnotes
 - https://blight.world/#about-the-game
-https://blight.world/#okay-so-if-you-want-to-play
+- https://blight.world/#okay-so-if-you-want-to-play
+- https://blight.world/#for-viewers
 
 
-### PATCHNOTES
+## PATCHNOTES
 ##### Feb-19-2020
 - **`QoL` PEACEKEEPER Application** : Got rid of some redundant questions and better explained a few elements to make it easier to roll a character.
 ##### Feb-17-2020
 - **`Bugfix` Bonus, Equip, Total now rendered as one item in app** : This is just so it takes less resources and can be maintained easier.
 - **`QoL` Knack Indicator** : The mechanic didn't give enough feedback to players on its effects. App handles the math and just shows the resulting rolls, instead of having them do the mental math.
 
-### About the game
+## About the game
 *Blightworld is a free-to-play hybrid tabletop-RPG-slash-videogame powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX—more on that below—with a companion app that helps with handling more of the complex aspects for players.  Sounds complicated, but the framework handles most of the back-end tracking and formulas.*
 
-# A brief history of the World of *ERAFLUX*
+## A brief history of the World of *ERAFLUX*
 #### VOID ERA - Prehistory
 - **Otherworlders** create life from the darkness from which vivilizations rise and build out of hte nothingness that existed
 - Connection to the power of the **Otherworld** discovered—called **Flux** and after many years, naturally was used to advance technology and weapons
@@ -41,11 +42,13 @@ https://blight.world/#okay-so-if-you-want-to-play
 - After some time, a long-reaching arm of government is created, with a focus on technological research and military force
 - This group is called the **PEACEKEEPERS** and they are sent out to deploy outposts on neighbouring systems in an attempt to bring the unruly under the order of the **GAF**
 - The furthest of these outposts from the core worlds is on **Ermoor**—set up as an experimental reasearch center and as a way to stake claim in the unknown regions of space
-### This is where the story of *Blightworld* begins
+
+
+#### This is where the story of *Blightworld* begins
 Set some years after the outpost on Ermoor has been operating, you along with many others jump at the opportunity to join the PEACEKEEPER ranks, especially at such a great paygrade.  Your mission is yet unknown to you, but still you are haunted by an inescapable dread and plagued by a visions of what's to come...
 
 
-# For Players
+## For Players
 ### Okay so if you want to play...
 Feel free to create a character via [**Google Form - PEACEKEEPER Application**](https://docs.google.com/forms/d/e/1FAIpQLSdmjwwZHayq47IHvxQiucQkFVtI5mC1rq6w7P7Ju3KLcgfMDg/viewform). 
 

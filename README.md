@@ -1,5 +1,9 @@
 ![BLIGHTWORLD - Currently in Closed Beta - April 2020](https://blight.world/twitch/twitch/video-player-banner.jpg)
 
+- https://blight.world/#patchnotes
+- https://blight.world/#about-the-game
+https://blight.world/#okay-so-if-you-want-to-play
+
 
 ### PATCHNOTES
 ##### Feb-19-2020
@@ -50,7 +54,7 @@ The game is in closed beta until I can iron things out and will probably be ther
 ### That being said...
 If you're interested in seeing how the game is changing for you as a player come April (maybe sooner) I'll be [**hosting the closed beta sessions on Twitch**](https://www.twitch.tv/lotusware) if you want to follow there.  As time allows, I'll be opening up more hosting sessions but for now, I think I am limited to only two a week.
 
-# For Viewers
+## For Viewers
 Even though you're not playing, you can earn **Dust** over time by watching the game be played by others. 
 
 Dust has many in-game uses (currency, empowering characters, making choices) but as a viewer, you can influence the game world by spending **Dust** (streamlab points) or **Dust Fragments** (channel points).  Although using either **Dust** or **Dust Fragments** can have a profound impact in Blightworld, only Dust shifts the world towards Ire or Calm, and only **Dust Fragments** can be used to create events/items/effects in the game world.

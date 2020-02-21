@@ -17,6 +17,8 @@
 ## About the game
 *Blightworld is a free-to-play hybrid tabletop-RPG-slash-videogame powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX—more on that below—with a companion app that helps with handling more of the complex aspects for players.  Along with Twitch integration, viewers have the ability to change the world that the players find themselves in.  Sounds complicated, but the framework handles most of the back-end tracking and formulas.*
 
+[**To read more, I've created an official wiki**](https://github.com/lotusware/blight-world/wiki)
+
 ## A brief history of the World of *ERAFLUX*
 #### VOID ERA - Prehistory
 - **Otherworlders** create life from the darkness from which vivilizations rise and build out of hte nothingness that existed

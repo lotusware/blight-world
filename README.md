@@ -17,7 +17,7 @@
 ## About the game
 *Blightworld is a free-to-play hybrid tabletop-RPG-slash-videogame powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX—more on that below—with a companion app that helps with handling more of the complex aspects for players.  Along with Twitch integration, viewers have the ability to change the world that the players find themselves in.  Sounds complicated, but the framework handles most of the back-end tracking and formulas.*
 
-[**To read more, as get lost in the lore, I've created an official wiki**](https://github.com/lotusware/blight-world/wiki)
+[**▶ To read more, as get lost in the lore, I've created an official wiki ◀**](https://github.com/lotusware/blight-world/wiki)
 
 #### *Blightworld* begins...
 Set some years after the outpost on Ermoor has been operating, you along with many others find yourselves joining the PEACEKEEPER ranks.  Your mission is yet unknown to you, but still you are haunted by an inescapable dread and plagued by a visions of what's to come...

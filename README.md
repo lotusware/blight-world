@@ -17,38 +17,10 @@
 ## About the game
 *Blightworld is a free-to-play hybrid tabletop-RPG-slash-videogame powered by Google Sheets + Javascriptset + OBS set in the world of ERAFLUX—more on that below—with a companion app that helps with handling more of the complex aspects for players.  Along with Twitch integration, viewers have the ability to change the world that the players find themselves in.  Sounds complicated, but the framework handles most of the back-end tracking and formulas.*
 
-[**To read more, I've created an official wiki**](https://github.com/lotusware/blight-world/wiki)
+[**To read more, as get lost in the lore, I've created an official wiki**](https://github.com/lotusware/blight-world/wiki)
 
-## A brief history of the World of *ERAFLUX*
-#### VOID ERA - Prehistory
-- **Otherworlders** create life from the darkness from which vivilizations rise and build out of hte nothingness that existed
-- Connection to the power of the **Otherworld** discovered—called **Flux** and after many years, naturally was used to advance technology and weapons
-- Galactic War was fought acrsoss the universe. **Otherworlders** intervene—destroying everything.
-- In the wake of the conflict, the **Otherworlders** create the **World Seed** which acts as the will of the **Flux** in their stead.
-- The next of the civilizations begin to rebuild around the now planet-sized **World Seed**, naming the system **Kaircoran**
-#### CATALYST - Year 0
-- The **World Seed** choses **The Six**—beings bestowed a great power and knowledge—to guide the universe
-- One of **The Six** attempts to usurp the seed but in doing so, **The Six** are pulled across time and space, creating great rifts from which **Flux** pours out
-- The **World Seed**, instead of advancing the universe in accordance to the **Otherworlders'** wills, attempts to course correct any effects due to the exploitation of these rifts.
-#### ENLIGHTED ERA - Year 850
-- Over time, all knowledge of the **Otherworlders, the Six**, and these rifts become legend and myth
-- The first of the post-Catalyst studies of **Flux** are conducted by the **Guardians**, who ensured that they would continue to pass their knowledge and skill down the generations
-- The first of the rifts were discovered, thanks to the help of a powerful being named **Archos** and through him, the rift was sealaed in an object of his design called an "Atlas"
-- **Archos** continued to commit to closing as many rifts as he could find with the help of the Guardians
-- Another mysterious being emerges and hunts down **Archos and his Guardians**, corrupting those who desired power
-- Eventually, after much conflict, The Guardians are no more aside from those following their new master
-#### DAWN ERA - Year 1175
-- With the shadows cast over the universe still in peoples' minds, several core systems band together under a unified government
-- The **Galactic Autocratic Federacy** is born, ruled over by a leader known as **The Unarch**
-- There are still pockets of dangerous systems throughout the universe, and a great unkown waiting to be discovered
-- These core planets set up their government on the technologically-rich system of Kaircoran
-- After some time, a long-reaching arm of government is created, with a focus on technological research and military force
-- This group is called the **PEACEKEEPERS** and they are sent out to deploy outposts on neighbouring systems in an attempt to bring the unruly under the order of the **GAF**
-- The furthest of these outposts from the core worlds is on **Ermoor**—set up as an experimental reasearch center and as a way to stake claim in the unknown regions of space
-
-
-#### This is where the story of *Blightworld* begins
-Set some years after the outpost on Ermoor has been operating, you along with many others jump at the opportunity to join the PEACEKEEPER ranks, especially at such a great paygrade.  Your mission is yet unknown to you, but still you are haunted by an inescapable dread and plagued by a visions of what's to come...
+#### *Blightworld* begins...
+Set some years after the outpost on Ermoor has been operating, you along with many others find yourselves joining the PEACEKEEPER ranks.  Your mission is yet unknown to you, but still you are haunted by an inescapable dread and plagued by a visions of what's to come...
 
 
 ## For Players

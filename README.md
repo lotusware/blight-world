@@ -25,8 +25,9 @@ Set some years after the outpost on Ermoor has been operating, you along with ma
 
 ## FOR PLAYERS
 ### Okay so if you want to play...
-Feel free to create a character ▶ [**Google Form - PEACEKEEPER Application**](https://docs.google.com/forms/d/e/1FAIpQLSdmjwwZHayq47IHvxQiucQkFVtI5mC1rq6w7P7Ju3KLcgfMDg/viewform). 
-Look over the beta web-app ▶ [**Sample Character Sheet**](https://blight.world/team/dev)
+Feel free to create a character ▶ [**Google Form - PEACEKEEPER Application**](https://docs.google.com/forms/d/e/1FAIpQLSdmjwwZHayq47IHvxQiucQkFVtI5mC1rq6w7P7Ju3KLcgfMDg/viewform).
+
+Become familiar with the MAG (Management Assist Gear) app ▶ [**Sample Character Sheet**](https://blight.world/team/dev)
 
 The game is in closed beta until I can iron things out and will probably be there for a while until I can build a solution that isn't based out of Google Sheets.  You can tweet me @EraFlux, or whisper LOTUSWARE on Twitch so I know who to send the profile to if I don't know who you are.
 

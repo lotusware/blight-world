@@ -5,10 +5,10 @@
 // Assign JSON to variable	// Assign variable to element
 var CURAP = data.feed.entry[0][playerName]['$t'];	document.getElementById('CURAP').innerHTML = CURAP;
 var MAXAP = data.feed.entry[1][playerName]['$t'];	document.getElementById('MAXAP').innerHTML = MAXAP;
-var CURHP = data.feed.entry[2][playerName]['$t'];	document.getElementById('CURHP').innerHTML = CURHP;
-var MAXHP = data.feed.entry[3][playerName]['$t'];	document.getElementById('MAXHP').innerHTML = MAXHP;
-var CURFP = data.feed.entry[4][playerName]['$t'];	document.getElementById('CURFP').innerHTML = CURFP;
-var MAXFP = data.feed.entry[5][playerName]['$t'];	document.getElementById('MAXFP').innerHTML = MAXFP;
+	
+	
+	
+	
 var FORT = data.feed.entry[6][playerName]['$t'];	document.getElementById('FORT').innerHTML = FORT;
 var FIN = data.feed.entry[7][playerName]['$t'];	document.getElementById('FIN').innerHTML = FIN;
 var STR = data.feed.entry[8][playerName]['$t'];	document.getElementById('STR').innerHTML = STR;
@@ -121,5 +121,4 @@ var APMETER = data.feed.entry[114][playerName]['$t'];	document.getElementById('A
 var HPMETER = data.feed.entry[115][playerName]['$t'];	document.getElementById('HPMETER').innerHTML = HPMETER;
 var AttacksLeft = data.feed.entry[116][playerName]['$t'];	
 var isKNACK = data.feed.entry[117][playerName]['$t'];	document.getElementById('isKNACK').innerHTML = isKNACK;
-
 });}

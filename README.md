@@ -1,4 +1,4 @@
-[![JoinThePeacekeepers](https://blight.world/join.png)](https://docs.google.com/forms/d/e/1FAIpQLSdmjwwZHayq47IHvxQiucQkFVtI5mC1rq6w7P7Ju3KLcgfMDg/viewform)
+
 
 - [Patchnotes](#patchnotes)
 - [About](#about-the-game)

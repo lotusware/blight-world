@@ -4,11 +4,7 @@
 
 // Assign JSON to variable	// Assign variable to element
 var CURAP = data.feed.entry[0][playerName]['$t'];	document.getElementById('CURAP').innerHTML = CURAP;
-var MAXAP = data.feed.entry[1][playerName]['$t'];	document.getElementById('MAXAP').innerHTML = MAXAP;
-	
-	
-	
-	
+var MAXAP = data.feed.entry[1][playerName]['$t'];	document.getElementById('MAXAP').innerHTML = MAXAP;	
 var FORT = data.feed.entry[6][playerName]['$t'];	document.getElementById('FORT').innerHTML = FORT;
 var FIN = data.feed.entry[7][playerName]['$t'];	document.getElementById('FIN').innerHTML = FIN;
 var STR = data.feed.entry[8][playerName]['$t'];	document.getElementById('STR').innerHTML = STR;

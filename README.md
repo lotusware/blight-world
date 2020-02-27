@@ -11,6 +11,7 @@
 ##### Feb-23-2020
 - **`QoL` Updated Icons, Status Bar** : Icons are brought into line with the style of the game.  Status bar has been reorganized and retooled.
 - **`Bugfix` Action and HP Bars now work** : Migrated to using a flexbox and images instead of rendering it as a solid bar.  It now correctly shows the proper stats remaining at horizontal, vertical, and desktop modes.
+- **`QoL` Removed brief description requirement for Application** : Just in case folks want to roll their character and come up with a bio afterwrads
 ##### Feb-19-2020
 - **`QoL` PEACEKEEPER Application** : Got rid of some redundant questions and better explained a few elements to make it easier to roll a character.
 ##### Feb-17-2020

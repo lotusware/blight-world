@@ -4,7 +4,11 @@
 
 // Assign JSON to variable	// Assign variable to element
 var CURAP = data.feed.entry[0][playerName]['$t'];	document.getElementById('CURAP').innerHTML = CURAP;
-var MAXAP = data.feed.entry[1][playerName]['$t'];	document.getElementById('MAXAP').innerHTML = MAXAP;	
+var MAXAP = data.feed.entry[1][playerName]['$t'];	document.getElementById('MAXAP').innerHTML = MAXAP;
+	
+	
+	
+	
 var FORT = data.feed.entry[6][playerName]['$t'];	document.getElementById('FORT').innerHTML = FORT;
 var FIN = data.feed.entry[7][playerName]['$t'];	document.getElementById('FIN').innerHTML = FIN;
 var STR = data.feed.entry[8][playerName]['$t'];	document.getElementById('STR').innerHTML = STR;
@@ -79,42 +83,54 @@ var ITEM4 = data.feed.entry[76][playerName]['$t'];	document.getElementById('ITEM
 var ITEM5 = data.feed.entry[77][playerName]['$t'];	document.getElementById('ITEM5').innerHTML = ITEM5;
 var ITEM6 = data.feed.entry[78][playerName]['$t'];	document.getElementById('ITEM6').innerHTML = ITEM6;
 var ITEM7 = data.feed.entry[79][playerName]['$t'];	document.getElementById('ITEM7').innerHTML = ITEM7;
-var ITEM0QTY = data.feed.entry[80][playerName]['$t'];	document.getElementById('ITEM0QTY').innerHTML = ITEM0QTY;
-var ITEM1QTY = data.feed.entry[81][playerName]['$t'];	document.getElementById('ITEM1QTY').innerHTML = ITEM1QTY;
-var ITEM2QTY = data.feed.entry[82][playerName]['$t'];	document.getElementById('ITEM2QTY').innerHTML = ITEM2QTY;
-var ITEM3QTY = data.feed.entry[83][playerName]['$t'];	document.getElementById('ITEM3QTY').innerHTML = ITEM3QTY;
-var ITEM4QTY = data.feed.entry[84][playerName]['$t'];	document.getElementById('ITEM4QTY').innerHTML = ITEM4QTY;
-var ITEM5QTY = data.feed.entry[85][playerName]['$t'];	document.getElementById('ITEM5QTY').innerHTML = ITEM5QTY;
-var ITEM6QTY = data.feed.entry[86][playerName]['$t'];	document.getElementById('ITEM6QTY').innerHTML = ITEM6QTY;
-var ITEM7QTY = data.feed.entry[87][playerName]['$t'];	document.getElementById('ITEM7QTY').innerHTML = ITEM7QTY;
-var ITEM0DESC = data.feed.entry[88][playerName]['$t'];	document.getElementById('ITEM0DESC').innerHTML = ITEM0DESC;
-var ITEM1DESC = data.feed.entry[89][playerName]['$t'];	document.getElementById('ITEM1DESC').innerHTML = ITEM1DESC;
-var ITEM2DESC = data.feed.entry[90][playerName]['$t'];	document.getElementById('ITEM2DESC').innerHTML = ITEM2DESC;
-var ITEM3DESC = data.feed.entry[91][playerName]['$t'];	document.getElementById('ITEM3DESC').innerHTML = ITEM3DESC;
-var ITEM4DESC = data.feed.entry[92][playerName]['$t'];	document.getElementById('ITEM4DESC').innerHTML = ITEM4DESC;
-var ITEM5DESC = data.feed.entry[93][playerName]['$t'];	document.getElementById('ITEM5DESC').innerHTML = ITEM5DESC;
-var ITEM6DESC = data.feed.entry[94][playerName]['$t'];	document.getElementById('ITEM6DESC').innerHTML = ITEM6DESC;
-var ITEM7DESC = data.feed.entry[95][playerName]['$t'];	document.getElementById('ITEM7DESC').innerHTML = ITEM7DESC;
-var ITEM0ROLL = data.feed.entry[96][playerName]['$t'];	document.getElementById('ITEM0ROLL').innerHTML = ITEM0ROLL;
-var ITEM1ROLL = data.feed.entry[97][playerName]['$t'];	document.getElementById('ITEM1ROLL').innerHTML = ITEM1ROLL;
-var ITEM2ROLL = data.feed.entry[98][playerName]['$t'];	document.getElementById('ITEM2ROLL').innerHTML = ITEM2ROLL;
-var ITEM3ROLL = data.feed.entry[99][playerName]['$t'];	document.getElementById('ITEM3ROLL').innerHTML = ITEM3ROLL;
-var ITEM4ROLL = data.feed.entry[100][playerName]['$t'];	document.getElementById('ITEM4ROLL').innerHTML = ITEM4ROLL;
-var ITEM5ROLL = data.feed.entry[101][playerName]['$t'];	document.getElementById('ITEM5ROLL').innerHTML = ITEM5ROLL;
-var ITEM6ROLL = data.feed.entry[102][playerName]['$t'];	document.getElementById('ITEM6ROLL').innerHTML = ITEM6ROLL;
-var ITEM7ROLL = data.feed.entry[103][playerName]['$t'];	document.getElementById('ITEM7ROLL').innerHTML = ITEM7ROLL;
-var ITEM0TYPE = data.feed.entry[104][playerName]['$t'];	document.getElementById('ITEM0TYPE').innerHTML = ITEM0TYPE;
-var ITEM1TYPE = data.feed.entry[105][playerName]['$t'];	document.getElementById('ITEM1TYPE').innerHTML = ITEM1TYPE;
-var ITEM2TYPE = data.feed.entry[106][playerName]['$t'];	document.getElementById('ITEM2TYPE').innerHTML = ITEM2TYPE;
-var ITEM3TYPE = data.feed.entry[107][playerName]['$t'];	document.getElementById('ITEM3TYPE').innerHTML = ITEM3TYPE;
-var ITEM4TYPE = data.feed.entry[108][playerName]['$t'];	document.getElementById('ITEM4TYPE').innerHTML = ITEM4TYPE;
-var ITEM5TYPE = data.feed.entry[109][playerName]['$t'];	document.getElementById('ITEM5TYPE').innerHTML = ITEM5TYPE;
-var ITEM6TYPE = data.feed.entry[110][playerName]['$t'];	document.getElementById('ITEM6TYPE').innerHTML = ITEM6TYPE;
-var ITEM7TYPE = data.feed.entry[111][playerName]['$t'];	document.getElementById('ITEM7TYPE').innerHTML = ITEM7TYPE;
-var LOGS = data.feed.entry[112][playerName]['$t'];	document.getElementById('LOGS').innerHTML = LOGS;
-var NAME = data.feed.entry[113][playerName]['$t'];	document.getElementById('NAME').innerHTML = NAME;
-var APMETER = data.feed.entry[114][playerName]['$t'];	document.getElementById('APMETER').innerHTML = APMETER;
-var HPMETER = data.feed.entry[115][playerName]['$t'];	document.getElementById('HPMETER').innerHTML = HPMETER;
-var AttacksLeft = data.feed.entry[116][playerName]['$t'];	
-var isKNACK = data.feed.entry[117][playerName]['$t'];	document.getElementById('isKNACK').innerHTML = isKNACK;
+var ITEM8 = data.feed.entry[80][playerName]['$t'];	document.getElementById('ITEM8').innerHTML = ITEM8;
+var ITEM9 = data.feed.entry[81][playerName]['$t'];	document.getElementById('ITEM9').innerHTML = ITEM9;
+var ITEM0QTY = data.feed.entry[82][playerName]['$t'];	document.getElementById('ITEM0QTY').innerHTML = ITEM0QTY;
+var ITEM1QTY = data.feed.entry[83][playerName]['$t'];	document.getElementById('ITEM1QTY').innerHTML = ITEM1QTY;
+var ITEM2QTY = data.feed.entry[84][playerName]['$t'];	document.getElementById('ITEM2QTY').innerHTML = ITEM2QTY;
+var ITEM3QTY = data.feed.entry[85][playerName]['$t'];	document.getElementById('ITEM3QTY').innerHTML = ITEM3QTY;
+var ITEM4QTY = data.feed.entry[86][playerName]['$t'];	document.getElementById('ITEM4QTY').innerHTML = ITEM4QTY;
+var ITEM5QTY = data.feed.entry[87][playerName]['$t'];	document.getElementById('ITEM5QTY').innerHTML = ITEM5QTY;
+var ITEM6QTY = data.feed.entry[88][playerName]['$t'];	document.getElementById('ITEM6QTY').innerHTML = ITEM6QTY;
+var ITEM7QTY = data.feed.entry[89][playerName]['$t'];	document.getElementById('ITEM7QTY').innerHTML = ITEM7QTY;
+var ITEM8QTY = data.feed.entry[90][playerName]['$t'];	document.getElementById('ITEM8QTY').innerHTML = ITEM8QTY;
+var ITEM9QTY = data.feed.entry[91][playerName]['$t'];	document.getElementById('ITEM9QTY').innerHTML = ITEM9QTY;
+var ITEM0DESC = data.feed.entry[92][playerName]['$t'];	document.getElementById('ITEM0DESC').innerHTML = ITEM0DESC;
+var ITEM1DESC = data.feed.entry[93][playerName]['$t'];	document.getElementById('ITEM1DESC').innerHTML = ITEM1DESC;
+var ITEM2DESC = data.feed.entry[94][playerName]['$t'];	document.getElementById('ITEM2DESC').innerHTML = ITEM2DESC;
+var ITEM3DESC = data.feed.entry[95][playerName]['$t'];	document.getElementById('ITEM3DESC').innerHTML = ITEM3DESC;
+var ITEM4DESC = data.feed.entry[96][playerName]['$t'];	document.getElementById('ITEM4DESC').innerHTML = ITEM4DESC;
+var ITEM5DESC = data.feed.entry[97][playerName]['$t'];	document.getElementById('ITEM5DESC').innerHTML = ITEM5DESC;
+var ITEM6DESC = data.feed.entry[98][playerName]['$t'];	document.getElementById('ITEM6DESC').innerHTML = ITEM6DESC;
+var ITEM7DESC = data.feed.entry[99][playerName]['$t'];	document.getElementById('ITEM7DESC').innerHTML = ITEM7DESC;
+var ITEM8DESC = data.feed.entry[100][playerName]['$t'];	document.getElementById('ITEM8DESC').innerHTML = ITEM8DESC;
+var ITEM9DESC = data.feed.entry[101][playerName]['$t'];	document.getElementById('ITEM9DESC').innerHTML = ITEM9DESC;
+var ITEM0ROLL = data.feed.entry[102][playerName]['$t'];	document.getElementById('ITEM0ROLL').innerHTML = ITEM0ROLL;
+var ITEM1ROLL = data.feed.entry[103][playerName]['$t'];	document.getElementById('ITEM1ROLL').innerHTML = ITEM1ROLL;
+var ITEM2ROLL = data.feed.entry[104][playerName]['$t'];	document.getElementById('ITEM2ROLL').innerHTML = ITEM2ROLL;
+var ITEM3ROLL = data.feed.entry[105][playerName]['$t'];	document.getElementById('ITEM3ROLL').innerHTML = ITEM3ROLL;
+var ITEM4ROLL = data.feed.entry[106][playerName]['$t'];	document.getElementById('ITEM4ROLL').innerHTML = ITEM4ROLL;
+var ITEM5ROLL = data.feed.entry[107][playerName]['$t'];	document.getElementById('ITEM5ROLL').innerHTML = ITEM5ROLL;
+var ITEM6ROLL = data.feed.entry[108][playerName]['$t'];	document.getElementById('ITEM6ROLL').innerHTML = ITEM6ROLL;
+var ITEM7ROLL = data.feed.entry[109][playerName]['$t'];	document.getElementById('ITEM7ROLL').innerHTML = ITEM7ROLL;
+var ITEM8ROLL = data.feed.entry[110][playerName]['$t'];	document.getElementById('ITEM8ROLL').innerHTML = ITEM8ROLL;
+var ITEM9ROLL = data.feed.entry[111][playerName]['$t'];	document.getElementById('ITEM9ROLL').innerHTML = ITEM9ROLL;
+var ITEM0TYPE = data.feed.entry[112][playerName]['$t'];	document.getElementById('ITEM0TYPE').innerHTML = ITEM0TYPE;
+var ITEM1TYPE = data.feed.entry[113][playerName]['$t'];	document.getElementById('ITEM1TYPE').innerHTML = ITEM1TYPE;
+var ITEM2TYPE = data.feed.entry[114][playerName]['$t'];	document.getElementById('ITEM2TYPE').innerHTML = ITEM2TYPE;
+var ITEM3TYPE = data.feed.entry[115][playerName]['$t'];	document.getElementById('ITEM3TYPE').innerHTML = ITEM3TYPE;
+var ITEM4TYPE = data.feed.entry[116][playerName]['$t'];	document.getElementById('ITEM4TYPE').innerHTML = ITEM4TYPE;
+var ITEM5TYPE = data.feed.entry[117][playerName]['$t'];	document.getElementById('ITEM5TYPE').innerHTML = ITEM5TYPE;
+var ITEM6TYPE = data.feed.entry[118][playerName]['$t'];	document.getElementById('ITEM6TYPE').innerHTML = ITEM6TYPE;
+var ITEM7TYPE = data.feed.entry[119][playerName]['$t'];	document.getElementById('ITEM7TYPE').innerHTML = ITEM7TYPE;
+var ITEM8TYPE = data.feed.entry[120][playerName]['$t'];	document.getElementById('ITEM8TYPE').innerHTML = ITEM8TYPE;
+var ITEM9TYPE = data.feed.entry[121][playerName]['$t'];	document.getElementById('ITEM9TYPE').innerHTML = ITEM9TYPE;
+var LOGS = data.feed.entry[122][playerName]['$t'];	document.getElementById('LOGS').innerHTML = LOGS;
+var NAME = data.feed.entry[123][playerName]['$t'];	document.getElementById('NAME').innerHTML = NAME;
+var APMETER = data.feed.entry[124][playerName]['$t'];	document.getElementById('APMETER').innerHTML = APMETER;
+var HPMETER = data.feed.entry[125][playerName]['$t'];	document.getElementById('HPMETER').innerHTML = HPMETER;
+	
+var isKNACK = data.feed.entry[127][playerName]['$t'];	document.getElementById('isKNACK').innerHTML = isKNACK;
+
+
 });}

@@ -8,6 +8,9 @@
 
 
 ## PATCHNOTES
+##### Feb-29-2020
+- **`New Feature` Added Catalysts (spells)** : Blightworld's form of spells, items that are held in inventory and can be used like a weapon but at the cost of FP.
+- **`Buff` Increased Inventory from 8 to 10 slots** : With the additionl of Catalysts and Dust, I felt like players needed the extra space.
 ##### Feb-23-2020
 - **`QoL` Updated Icons, Status Bar** : Icons are brought into line with the style of the game.  Status bar has been reorganized and retooled.
 - **`Bugfix` Action and HP Bars now work** : Migrated to using a flexbox and images instead of rendering it as a solid bar.  It now correctly shows the proper stats remaining at horizontal, vertical, and desktop modes.

@@ -1,1 +1,1 @@
-[JointhePeaceKeepers](https://blight.world/join.png)
+![JointhePeaceKeepers](https://blight.world/join.png)

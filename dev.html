@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title >MAG - Management Assist Gear</title>
+    <meta name="referrer" content="strict-origin" />
+    <script src="https://kit.fontawesome.com/689bef66cf.js" crossorigin="anonymous" rel="stylesheet"></script>
+    <link href="../css/style2.css?v=02222020" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto+Mono&display=swap" rel="stylesheet">
+
+  </head>
+
+<script type="application/javascript"> // Define playername to load--one word, no spaces
+  var playerName = "gsx$honeykaizoku"; 
+ // var playerName = "gsx$hammishmcangus";
+ // var playerName = "gsx$clipclop";
+</script>
+  
+  <body>
+
+<div class="flex-container hud" style="float:left; z-index:2000;">
+<div><a href="#attributes"><img src="../assets/ui/status.png" class="flex-nav"></a></div>
+<div><a href="#checks"><img src="../assets/ui/checks.png" class="flex-nav"></a></div>
+<div><a href="#combat"><img src="../assets/ui/combat.png" class="flex-nav"></a></div>
+<div><a href="#equipment"><img src="../assets/ui/equip.png"  class="flex-nav" ></a></div>
+<div><a href="#inventory"><img src="../assets/ui/items.png" class="flex-nav"></a></div>
+<div><a href="#datalog"><img src="../assets/ui/log.png" class="flex-nav"></a></div>
+
+</div>
+
+    <div class="hud status" style="color:white; padding: 10px 10px 20px 10px;" >
+      <div style="display: flex; flex-direction: row; height: 100%; flex-wrap: nowrap; justify-content: space-between; align-items: center;">
+        <div style="flex-grow: 1; padding:2px 5px 2px 5px"><h2 id="NAME">Loading...</h2></div><div><h1 class="glow-text text-yellow"><span id="CURAP" style="font-size:28pt;">AP</span>/<span style="font-size:20pt;" id="MAXAP"></span ></h1></div>
+      </div>
+      <div style="display: flex; flex-direction: row; height: 100%; margin-top:-10px; flex-wrap: nowrap; justify-content: space-between; align-items: center;" id="APMETER"></div>
+      <div style="display: flex; flex-direction: row; height: 100%; flex-wrap: nowrap; justify-content: space-between; align-items: center;" id="HPMETER"></div>
+
+    </div>
+    
+
+
+
+
+
+<!-- ATTRIBUTES -->
+<div id="attributes" class="spacer"></div>
+
+<table class="section">
+  <tr class="section-header text-dark"> 
+    <td class="horizontal" colspan="3"><h3 class="font-oswald">&#9658; Attributes</h3></td><td class="vertical" colspan="2" ><h3 class="font-oswald">&#9658; Attributes</h3></td>
+    <td width="50" class="= text-center bg-lightest"><h6 class="font-oswald">+ BONUS</h6></td>
+    <td width="50" class="= text-center bg-lightest"><h6 class="font-oswald">+ EQUIP</h6></td>
+    <td width="50" ></td>
+  </tr>
+  <tr class="dotted-line text-light bg-darkest" id="FORT"></tr>
+  <tr class="dotted-line text-light bg-dark" id="FIN"></tr>
+  <tr class="dotted-line text-light bg-darkest" id="STR"></tr>
+  <tr class="dotted-line text-light bg-dark" id="SKL"></tr>
+  <tr class="dotted-line text-light bg-darkest" id="INT"></tr>
+  <tr class="dotted-line text-light bg-dark" id="INS"></tr>
+</table>
+
+<!-- TRAITS / Checks -->
+<div id="checks" class="spacer"></div>
+<table  class="section">
+
+  <tr class="text-light bg-darkest" id="Knack">
+
+  </tr>
+
+  <tr id="isKNACK" style="border-bottom-width: 3px; border-bottom-style: outset; font-weight: bold;" class="bg-dark text-yellow text-center">
+
+  </tr>
+  <tr class="section-header text-dark"> 
+    <td class="horizontal" colspan="2"><h3 class="font-oswald">&#9658; Traits</h3></td><td class="vertical" colspan="1" ><h3 class="font-oswald">&#9658; Traits</h3></td>
+    <td width="50" class="= text-center bg-lightest"><h6 class="font-oswald">+ Bonus</h6></td>
+    <td width="50" class="= text-center bg-lightest"><h6 class="font-oswald">+ Equip</h6></td>
+    <td width="50" class="text-lightest text-center"><h5>d100</h5></td>
+    <td width="50" class="text-center bg-yellow"><h3>&#9670;</h3></td>
+    <td width="50" class="text-center bg-red" ><h3>&#9733;</h3></td>
+  </tr>
+  <tr class="dotted-line text-light bg-darkest" id="Endurance"></tr>
+  <tr class="dotted-line text-light bg-dark" id="Resist"></tr>
+  <tr class="dotted-line text-light bg-darkest" id="Acuity"></tr>
+  <tr class="dotted-line text-light bg-dark" id="Wilderness"></tr>
+  <tr class="dotted-line text-light bg-darkest" id="Engineering"></tr>
+  <tr class="dotted-line text-light bg-dark" id="Intuition"></tr>
+  <tr class="dotted-line text-light bg-darkest" id="Perception"></tr>
+  <tr class="dotted-line text-light bg-dark" id="Persuasion"></tr>
+
+</table>
+
+<!-- COMBAT -->
+<div id="combat" class="spacer"></div>
+<table class="section text-dark">
+  <tr class="section-header text-dark">
+    <td colspan="4"><h3 class="font-oswald">&#9658; Equipped Weapon</h3></td>
+  </tr>
+<tr class="bg-darkest text-light text-center dotted-line">
+  <td width="40"><h3 id="EQTYPE" style="text-align:left;"></h3></td><td class="bg-darkest"><h3 id="EQ"></td>
+    <td class="bg-mid text-lightest" style="width:20%;"><h3 id="EQROLL">&#x2022;</h3></td><td width="40" class="bg-mid" ><img src="../assets/ui/dice.gif" width="40"></td>
+</tr>
+<tr class="bg-dark text-lightest text-center">
+  <td colspan="4"><p class="desc" id="EQDESC">&#x2022;</p></td>
+</tr>
+</table>
+
+<table class="section text-dark">
+  <tr class="section-header text-dark"> 
+    <td width="auto" colspan="4"><h3 class="font-oswald">&#9658; Combat Stats</h3></td>
+  </tr>
+  <tr class="dotted-line text-lightest bg-darkest">
+    <td width="100"><h3 class="bg-darkest text-lightest pad-left">Accuracy</h3></td>
+    <td class="padding-left" ><p >How likely your ranged attack will hit your target</p></td>
+    <td width="50" class="text-center padding-left"><h1 id="Accuracy" class="text-lightest">&#x2022;</h1></td>
+    <td class="text-center text-yellow"><h3 id="AccuracyDIFF">&#x2022;</h3></td>
+  </tr>
+  <tr class="dotted-line bg-dark text-lightest">
+    <td  width="100"><h3 style="padding-left:10px;">Agility </h3></td>
+    <td class="padding-left"><p >How quickly and frequently you can act in combat.</p></td>
+    <td width="100" colspan="2" class="text-center padding-left"><h1><span id="AGILITY"></span></h1></tdcolspan="2">
+  </tr>
+  <tr class="dotted-line bg-darkest text-lightest">
+    <td ><h3 style="padding-left:10px;">Dodge</td>
+      <td class="padding-left" ><p >Liklihood of being able to avoid an attack.</p></td>
+      <td width="100" colspan="2" class="text-center padding-left"><h1><span id="DODGE"></span></h1></tdcolspan="2">
+  </tr>
+</table>
+
+<!-- EQUIPMENT -->
+<div id="equipment" class="spacer"></div>
+<table class="section">
+  <tr class="section-header text-dark"> 
+    <td class="horizontal" colspan="4"><h3 class="font-oswald">&#9658; Weapons</h3></td><td class="vertical" colspan="2" ><h3 class="font-oswald">&#9658; Weapons</h3></td>
+    <td width="50" class="= text-center bg-lightest"><h6 class="font-oswald">damage</h6></td>
+  </tr>
+  <tr class="dotted-line text-light bg-darkest">
+    <td class="horizontal" width="40"><h5 id="WEP0E">&#x2022;</h5></td>
+    <td class="horizontal" width="40"><h5 id="WEP0TYPE">&#x2022;</h5></td>
+    <td class="text-center" style="width:20%;"><h4 id="WEP0">&#x2022;</h3></td>
+    <td><p id="WEP0DESC">&#x2022;</p></td>
+    <td width="80" class="text-center bg-mid"><h3 id="WEP0ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="dotted-line text-light bg-dark">
+    <td class="horizontal" width="40"><h5 id="WEP1E">&#x2022;</h5></td>
+    <td class="horizontal" width="40"><h5 id="WEP1TYPE">&#x2022;</h5></td>
+    <td class="text-center" style="width:20%;"><h4 id="WEP1">&#x2022;</h5></td>
+    <td><p id="WEP1DESC">&#x2022;</p></td>
+    <td width="80" class="text-center bg-mid"><h3 id="WEP1ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="dotted-line text-light bg-darkest">
+    <td class="horizontal" width="40"><h5 id="WEP2E">&#x2022;</h5></td>
+    <td class="horizontal" width="40"><h5 id="WEP2TYPE">&#x2022;</h5></td>
+    <td class="text-center" style="width:20%;"><h4 id="WEP2">&#x2022;</h5></td>
+    <td><p id="WEP2DESC">&#x2022;</p></td>
+    <td width="80" class="text-center bg-mid"><h3 id="WEP2ROLL">&#x2022;</h4></td>
+  </tr>
+  <tr class="dotted-line text-light bg-dark">
+    <td class="horizontal" width="40"><h5 id="WEP3E">&#x2022;</h5></td>
+    <td class="horizontal" width="40"><h5 id="WEP3TYPE">&#x2022;</h5></td>
+    <td class="text-center" style="width:20%;"><h4 id="WEP3">&#x2022;</h5></td>
+    <td><p id="WEP3DESC">&#x2022;</p></td>
+    <td width="80" class="text-center bg-mid"><h3 id="WEP3ROLL">&#x2022;</h4></td>
+  </tr>
+  <tr class="text-light bg-darkest">
+    <td class="horizontal" width="40"><h5 id="WEP4E">&#x2022;</h5></td>
+    <td class="horizontal" width="40"><h5 id="WEP4TYPE">&#x2022;</h5></td>
+    <td class="text-center" style="width:20%;"><h4 id="WEP4">&#x2022;</h5></td>
+    <td><p id="WEP4DESC">&#x2022;</p></td>
+    <td width="80" class="text-center bg-mid"><h3 id="WEP4ROLL">&#x2022;</h4></td>
+  </tr>
+</table>
+<table class="section">
+  <tr class="section-header text-dark"> 
+    <td colspan="3"><h3 class="font-oswald">&#9658; Armor — Head</h3></td>
+  </tr>
+  <tr class="dotted-line text-light bg-darkest">
+    <td class="horizontal" width="40"><h5 id="HEAD0E">&#x2022;</h5></td>
+    <td class="text-center" style="width:26%;"><h4 id="HEAD0">&#x2022;</h3></td>
+    <td><p id="HEAD0DESC">&#x2022;</p></td>
+  </tr>
+  <tr class="dotted-line text-light bg-dark">
+    <td class="horizontal" width="40"><h5 id="HEAD1E">&#x2022;</h5></td>
+    <td class="text-center" style="width:26%;"><h4 id="HEAD1">&#x2022;</h3></td>
+    <td><p id="HEAD1DESC">&#x2022;</p></td>
+  </tr>
+  <tr class="text-light bg-darkest">
+    <td class="horizontal" width="40"><h5 id="HEAD2E">&#x2022;</h5></td>
+    <td class="text-center" style="width:26%;"><h4 id="HEAD2">&#x2022;</h3></td>
+    <td><p id="HEAD2DESC">&#x2022;</p></td>
+  </tr>
+</table>
+<table class="section">
+  <tr class="section-header text-dark"> 
+    <td colspan="3"><h3 class="font-oswald">&#9658; Armor — Body</h3></td>
+  </tr>
+  <tr class="dotted-line text-light bg-darkest">
+    <td class="horizontal" width="40"><h5 id="BODY0E">&#x2022;</h5></td>
+    <td class="text-center" style="width:26%;"><h4 id="BODY0">&#x2022;</h3></td>
+    <td><p id="BODY0DESC">&#x2022;</p></td>
+  </tr>
+  <tr class="dotted-line text-light bg-dark">
+    <td class="horizontal" width="40"><h5 id="BODY1E">&#x2022;</h5></td>
+    <td class="text-center" style="width:26%;"><h4 id="BODY1">&#x2022;</h3></td>
+    <td><p id="BODY1DESC">&#x2022;</p></td>
+  </tr>
+  <tr class="text-light bg-darkest">
+    <td class="horizontal" width="40"><h5 id="BODY2E">&#x2022;</h5></td>
+    <td class="text-center" style="width:26%;"><h4 id="BODY2">&#x2022;</h3></td>
+    <td><p id="BODY2DESC">&#x2022;</p></td>
+  </tr>
+</table>
+
+<!-- INVENTORY -->
+<div id="inventory" class="spacer"></div>
+<table class="section">
+  <tr class="section-header text-dark"> 
+    <td colspan="4" class="horizontal"><h3 class="font-oswald">&#9658; Inventory</h3></td><td colspan="3" class="vertical"><h3 class="font-oswald">&#9658; Inventory</h3></td>
+    <td width="50" class="= text-center bg-lightest"><h6 class="font-oswald">roll</h6></td>
+  </tr>
+  <tr class="text-light bg-darkest dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM0TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;;margin-top:-5px;"><span id="ITEM0QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM0">&#x2022;</span></h3></td>
+    <td><p id="ITEM0DESC">&#x2022;</p></td><td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM0ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-dark dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM1TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM1QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM1">&#x2022;</span></h3></td>
+    <td><p id="ITEM1DESC">&#x2022;</p></td><td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM1ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-darkest dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM2TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM2QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM2">&#x2022;</span></h3></td>
+    <td><p id="ITEM2DESC">&#x2022;</p></td><td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM2ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-dark dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM3TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM3QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM3">&#x2022;</span></h3></td>
+    <td><p id="ITEM3DESC">&#x2022;</p></td><td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM3ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-darkest dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM4TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM4QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM4">&#x2022;</span></h3></td>
+    <td><p id="ITEM4DESC">&#x2022;</p></td><td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM4ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-dark dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM5TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM5QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM5">&#x2022;</span></h3></td>
+    <td><p id="ITEM5DESC">&#x2022;</p></td><td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM5ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-darkest dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM6TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM6QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM6">&#x2022;</span></h3></td>
+    <td><p id="ITEM6DESC">&#x2022;</p></td><td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM6ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-dark dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM7TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM7QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM7">&#x2022;</span></h3></td>
+    <td><p id="ITEM7DESC">&#x2022;</p></td><td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM7ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-darkest dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM8TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM8QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM8">&#x2022;</span></h3></td>
+    <td><p id="ITEM8DESC">&#x2022;</p></td>    <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM8ROLL">&#x2022;</h3></td>
+  </tr>
+  <tr class="text-light bg-dark dotted-line">
+    <td class="horizontal" width="40"><h3 class="text-center" id="ITEM9TYPE">&#x2022;</h5><h3 style="background-color:rgba(255,255,255,0.1); text-align:center;margin-top:-5px;"><span id="ITEM9QTY">&#x2022;</span></h3></td>
+    <td colspan="2" style="width:15%;" class="text-lightest text-center"><h3><span class="text-light" style="font-size: medium;" id="ITEM9">&#x2022;</span></h3></td>
+    <td><p id="ITEM9DESC">&#x2022;</p></td>    <td width="80" class="text-center bg-mid"><h3 class="text-center" id="ITEM9ROLL">&#x2022;</h3></td>
+  </tr>
+</table>
+
+<!-- LOGS  -->
+<div id="datalog" class="spacer"></div>
+<table class="section">
+  <tr class="section-header text-dark"><td><h3 class="font-oswald">&#9658; Data Logs</h3></td></tr>
+  <tr class="text-light bg-darkest"><td><p id="LOGS" class="desc dotted-line" style="line-height: 1.5em;"></p></td></tr>
+</table>
+
+
+
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+
+    <!-- JSON LOADER -- 5s refresh-->
+    <script type="text/javascript" src="../js/load-json-refresh.js?v=02292020"></script>
+
+
+
+
+
+
+  </body>
+
+</html>
